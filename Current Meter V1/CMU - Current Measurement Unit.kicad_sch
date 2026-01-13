@@ -2869,6 +2869,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Test - Katie\n"
+		(exclude_from_sim no)
+		(at 214.376 36.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "324625f9-93b5-4c28-aab0-f696d2fcd0f2")
+	)
 	(junction
 		(at 161.29 107.95)
 		(diameter 0)
