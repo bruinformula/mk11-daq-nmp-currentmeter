@@ -1,0 +1,33 @@
+# KiCad backup files
+*-backups/
+
+# Autosave files
+_autosave-*
+*#auto_saved_files#*
+\#*
+
+# Lock files
+*.lck
+
+# Cache files
+fp-info-cache
+*.cache
+*-cache.lib
+
+# Backup files
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Netlist files (regenerated)
+*.net
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Linux system files
+*~
