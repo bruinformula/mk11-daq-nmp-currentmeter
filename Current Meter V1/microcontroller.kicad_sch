@@ -1596,7 +1596,6 @@
 				)
 			)
 			(embedded_fonts no)
-			(embedded_files)
 		)
 	)
 	(symbol
@@ -1735,6 +1734,7 @@
 		)
 		(pin "33"
 			(uuid "a175625e-369f-48f0-a105-d7d220f60795")
+			(alternate "I2C3_SCL")
 		)
 		(pin "16"
 			(uuid "05b6e7d2-c039-4b03-aebc-b9d37dfd1c0d")

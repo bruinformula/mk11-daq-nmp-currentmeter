@@ -3136,6 +3136,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bfr_connectors:DAQ_Connector"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Connector"
+				(at 0 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DAQ Connector Microfit"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer P/N" "0436500401"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Molex"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "WM1867-ND"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "538-43650-0401 "
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic?" "No"
+				(at -2.54 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DAQ_Connector_1_1"
+				(rectangle
+					(start -5.08 13.97)
+					(end 5.08 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
+				)
+				(pin passive line
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
+				)
+				(pin passive line
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "bfr_utilities:SMD_Test_Point"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7126,6 +7354,134 @@
 		)
 	)
 	(symbol
+		(lib_id "bfr_connectors:DAQ_Connector")
+		(at 77.47 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63297f89-6814-414d-876a-324c1b448561")
+		(property "Reference" "J101"
+			(at 77.47 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Connector"
+			(at 77.47 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DAQ Connector Microfit"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0436500401"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "WM1867-ND"
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "538-43650-0401 "
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic?" "No"
+			(at 74.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
+			(at 78.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32e4d4aa-8c9b-4616-b612-19bba41229f1")
+		)
+		(pin "2"
+			(uuid "2ec43708-b624-4515-89f5-09b1bbec1c4c")
+		)
+		(pin "4"
+			(uuid "2e2d88a7-20c5-410f-b718-80608bd5b7a3")
+		)
+		(pin "3"
+			(uuid "56923653-49e1-4554-8310-e4adcc2fe6e4")
+		)
+		(instances
+			(project ""
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
+					(reference "J101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 238.76 77.47 90)
 		(unit 1)
@@ -9024,6 +9380,7 @@
 		)
 		(pin "29"
 			(uuid "9fcc62f4-dfea-484f-9858-7ab9fb9dbd72")
+			(alternate "I2C1_SCL")
 		)
 		(pin "33"
 			(uuid "5e655ccf-e5d2-4156-a60a-27ac77c203d4")
@@ -9066,6 +9423,7 @@
 		)
 		(pin "30"
 			(uuid "31bc475a-0ab9-4173-9b84-df692997f6bc")
+			(alternate "I2C1_SDA")
 		)
 		(pin "1"
 			(uuid "c1666778-b45c-459b-8107-e9b827cb8c26")
@@ -10387,6 +10745,56 @@
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
 					(reference "C115")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 82.55)
+		(size 12.7 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19b12faf-7b71-46cf-92b2-c5966ba55c9d")
+		(property "Sheetname" "microcontroller"
+			(at 25.4 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 25.4 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 25.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
+					(page "3")
 				)
 			)
 		)
