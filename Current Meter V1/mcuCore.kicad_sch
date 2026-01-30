@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b3952b2d-c18b-4832-acbf-2cd4b0d3e0de")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 107.95 76.2) (xy 129.54 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af47902-e031-4b35-83f1-411ee534dbc2")
+	)
+	(wire
+		(pts
+			(xy 107.95 63.5) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d9e4d4-eb2c-4796-88fa-1707b0894779")
+	)
+	(sheet
+		(at 77.47 55.88)
+		(size 30.48 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ea9aa4f-76bf-41e8-b637-3d0ffab80390")
+		(property "Sheetname" "connector"
+			(at 77.47 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connector.kicad_sch"
+			(at 77.47 97.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN" bidirectional
+			(at 107.95 76.2 0)
+			(uuid "b3550383-2728-4469-97a5-9abe8f137cb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBATT+" input
+			(at 107.95 63.5 0)
+			(uuid "2bc77353-19c4-4edd-86ee-fc9536329900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/19b12faf-7b71-46cf-92b2-c5966ba55c9d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 54.61)
+		(size 27.94 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b987dd38-ffff-49a9-9c80-597e30a8c9f5")
+		(property "Sheetname" "microcontroller"
+			(at 129.54 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 129.54 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V" input
+			(at 129.54 63.5 180)
+			(uuid "0bd2b17e-d5b6-487c-bb32-57a5a13276e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_CAN" bidirectional
+			(at 129.54 76.2 180)
+			(uuid "fcfbbecf-76fe-4c2d-bc52-2a9698462c64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/19b12faf-7b71-46cf-92b2-c5966ba55c9d"
+					(page "4")
+				)
+			)
+		)
+	)
+)

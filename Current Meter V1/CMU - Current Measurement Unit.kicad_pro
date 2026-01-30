@@ -615,12 +615,20 @@
       "Root"
     ],
     [
-      "b4d4c228-ef46-458b-8a8f-189f9e8b1b95",
-      "Old_Version"
+      "19b12faf-7b71-46cf-92b2-c5966ba55c9d",
+      "mcuCore"
     ],
     [
-      "19b12faf-7b71-46cf-92b2-c5966ba55c9d",
+      "b987dd38-ffff-49a9-9c80-597e30a8c9f5",
       "microcontroller"
+    ],
+    [
+      "8ea9aa4f-76bf-41e8-b637-3d0ffab80390",
+      "connector"
+    ],
+    [
+      "1f40584d-b075-42de-98b4-e364b4880d47",
+      "opamp"
     ]
   ],
   "text_variables": {}
