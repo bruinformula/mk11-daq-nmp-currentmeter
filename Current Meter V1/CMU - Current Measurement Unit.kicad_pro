@@ -617,6 +617,22 @@
     [
       "b4d4c228-ef46-458b-8a8f-189f9e8b1b95",
       "Old_Version"
+    ],
+    [
+      "e175ba58-6276-4e18-8de1-e86bcf970790",
+      "Display"
+    ],
+    [
+      "dcd586ad-edeb-4639-a35c-2f86074469c9",
+      "Power"
+    ],
+    [
+      "ea9e1139-1502-40b3-be6d-24d80586b96b",
+      "MCU"
+    ],
+    [
+      "df1d6260-3de6-4eb3-b590-3c5d764ebf3b",
+      "OpAmp"
     ]
   ],
   "text_variables": {}
