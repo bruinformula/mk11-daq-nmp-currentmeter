@@ -2853,13 +2853,19 @@
 		)
 	)
 	(junction
-		(at 236.22 86.36)
+		(at 256.54 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02fa28a3-399f-4afb-a0e1-b90e859cd917")
+	)
+	(junction
+		(at 241.3 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14c47d31-0656-4d69-be89-4b6f11eb04e1")
 	)
 	(junction
-		(at 236.22 96.52)
+		(at 241.3 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4497d844-6ce4-4203-b0ed-376fde9a6c31")
@@ -2871,19 +2877,19 @@
 		(uuid "6289aded-fb5a-45e1-a72a-eb0fe434900b")
 	)
 	(junction
-		(at 219.71 96.52)
+		(at 256.54 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6698c0ef-fd07-419c-9809-1e896fd93f05")
+		(uuid "6f6ba2cb-e3b9-4f7f-92ed-6abfb2fdb879")
 	)
 	(junction
-		(at 228.6 86.36)
+		(at 248.92 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec50b4c-5022-44cd-9ab3-1e05bcf8ddbb")
 	)
 	(junction
-		(at 255.27 86.36)
+		(at 222.25 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ec63182-93fa-411f-94c0-5bd5e7f22ebe")
@@ -2895,25 +2901,19 @@
 		(uuid "7f2de54b-3cf9-4653-abd9-bb38d81e97e2")
 	)
 	(junction
-		(at 228.6 96.52)
+		(at 248.92 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ff06749-4b30-4704-9ab2-3eb994842c2d")
 	)
 	(junction
-		(at 171.45 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d970267-ea49-46bc-8a8c-3f595d500b10")
-	)
-	(junction
-		(at 242.57 96.52)
+		(at 234.95 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8dd2d658-c690-44b1-87ac-47ada1c78b94")
 	)
 	(junction
-		(at 255.27 96.52)
+		(at 222.25 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac1674d3-fd8e-48a8-b696-da56372cfd10")
@@ -2925,28 +2925,22 @@
 		(uuid "b1eae5d8-7bcc-46fa-8539-2f26f5b89dc5")
 	)
 	(junction
-		(at 242.57 86.36)
+		(at 234.95 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3728250-69fa-4d1c-b841-fb7993d0b3dd")
 	)
 	(junction
-		(at 248.92 86.36)
+		(at 228.6 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de2a3c27-cdee-4b4c-a14a-d857bc7c19dd")
 	)
 	(junction
-		(at 248.92 96.52)
+		(at 228.6 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4b6ffda-c8ac-4ebc-a3cc-aceb40f285d1")
-	)
-	(junction
-		(at 219.71 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f480c7ec-7b3e-42b2-8ebf-fe56e04b1cc4")
 	)
 	(no_connect
 		(at 147.32 146.05)
@@ -2977,6 +2971,10 @@
 		(uuid "50790c03-00ef-43ea-911b-c1deeb5fa5eb")
 	)
 	(no_connect
+		(at 173.99 86.36)
+		(uuid "53f36acd-2af4-45a5-aaf5-ec450a8fa0b2")
+	)
+	(no_connect
 		(at 147.32 156.21)
 		(uuid "6b12484f-c0da-461f-ae90-e6876a30f174")
 	)
@@ -3005,6 +3003,10 @@
 		(uuid "a33bf2b7-608b-464e-8050-f92e736bf8b9")
 	)
 	(no_connect
+		(at 173.99 96.52)
+		(uuid "a4d54817-b62a-4309-8476-13267c5cb569")
+	)
+	(no_connect
 		(at 88.9 82.55)
 		(uuid "b76f29e1-67c2-4919-b5ab-cae880d795ec")
 	)
@@ -3027,10 +3029,6 @@
 	(no_connect
 		(at 88.9 87.63)
 		(uuid "e3884ef2-e2b6-4dfa-8627-1a96f040f5fc")
-	)
-	(no_connect
-		(at 212.09 86.36)
-		(uuid "e3a65b54-da3e-4737-ad9d-bdec0f1edd2c")
 	)
 	(no_connect
 		(at 88.9 102.87)
@@ -3060,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 86.36) (xy 236.22 86.36)
+			(xy 248.92 86.36) (xy 241.3 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 95.25) (xy 236.22 96.52)
+			(xy 241.3 95.25) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3080,13 +3078,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 96.52) (xy 228.6 96.52)
+			(xy 256.54 96.52) (xy 260.35 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f103d66-7228-4cf4-a071-2181f82d1724")
+	)
+	(wire
+		(pts
+			(xy 260.35 96.52) (xy 260.35 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "120afec7-3e73-4f47-b2e7-b5922b8d580b")
 	)
 	(wire
 		(pts
@@ -3110,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 96.52) (xy 242.57 96.52)
+			(xy 241.3 96.52) (xy 234.95 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3128,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 86.36) (xy 236.22 87.63)
+			(xy 256.54 86.36) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d04671e-1413-4a88-9ac1-79965e004f69")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 241.3 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3130,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 95.25) (xy 242.57 96.52)
+			(xy 234.95 95.25) (xy 234.95 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3158,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 86.36) (xy 219.71 87.63)
+			(xy 256.54 86.36) (xy 256.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3170,17 +3188,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 171.45 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513a7dd0-b007-4e85-aa34-24ea3c20f054")
-	)
-	(wire
-		(pts
-			(xy 219.71 86.36) (xy 228.6 86.36)
+			(xy 256.54 86.36) (xy 260.35 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3190,7 +3198,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 86.36) (xy 248.92 87.63)
+			(xy 228.6 86.36) (xy 228.6 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3200,17 +3208,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 86.36) (xy 260.35 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676ef71e-1219-447e-b093-7e3031d83890")
-	)
-	(wire
-		(pts
-			(xy 242.57 96.52) (xy 248.92 96.52)
+			(xy 234.95 96.52) (xy 228.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3220,27 +3218,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 171.45 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71c302f7-51d8-46ea-a0cb-2578b4c13860")
-	)
-	(wire
-		(pts
-			(xy 255.27 96.52) (xy 260.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "780de419-1704-45fb-be96-6e8e300edb6b")
-	)
-	(wire
-		(pts
-			(xy 212.09 96.52) (xy 219.71 96.52)
+			(xy 212.09 96.52) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3250,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 86.36) (xy 255.27 87.63)
+			(xy 222.25 86.36) (xy 222.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3270,16 +3248,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 86.36) (xy 219.71 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938ae9b7-424a-419d-95cf-198d8f1b964b")
-	)
-	(wire
-		(pts
 			(xy 212.09 105.41) (xy 219.71 105.41)
 		)
 		(stroke
@@ -3290,17 +3258,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 72.39) (xy 215.9 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9db9f2d8-065c-4cf7-ad00-4e381b66bbdd")
-	)
-	(wire
-		(pts
-			(xy 255.27 86.36) (xy 248.92 86.36)
+			(xy 222.25 86.36) (xy 228.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3310,7 +3268,27 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 86.36) (xy 242.57 86.36)
+			(xy 256.54 96.52) (xy 248.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcb7882-762c-40d3-83e9-3a1e7618a49a")
+	)
+	(wire
+		(pts
+			(xy 212.09 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb6cd48-b5f0-4b72-9bb5-a0b12670c7bc")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 234.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3320,7 +3298,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 96.52) (xy 255.27 96.52)
+			(xy 228.6 96.52) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3340,17 +3318,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 173.99 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c84b795c-f35a-4d39-b2b5-0e4a168e3374")
-	)
-	(wire
-		(pts
-			(xy 228.6 86.36) (xy 228.6 87.63)
+			(xy 248.92 86.36) (xy 248.92 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3370,7 +3338,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 95.25) (xy 219.71 96.52)
+			(xy 256.54 95.25) (xy 256.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 236.22 96.52)
+			(xy 248.92 96.52) (xy 241.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3400,7 +3368,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 248.92 86.36)
+			(xy 234.95 86.36) (xy 228.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3410,7 +3378,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 95.25) (xy 255.27 96.52)
+			(xy 222.25 95.25) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3420,33 +3388,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 95.25) (xy 248.92 96.52)
+			(xy 228.6 95.25) (xy 228.6 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f35b91ce-1836-4a7f-8049-11f50fbbb3dd")
-	)
-	(wire
-		(pts
-			(xy 171.45 72.39) (xy 215.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f48ace90-32f3-4266-aaf7-0ff6b96efe9a")
-	)
-	(wire
-		(pts
-			(xy 171.45 96.52) (xy 173.99 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55600e3-08af-4462-8ac0-f8d274ad9f7f")
 	)
 	(wire
 		(pts
@@ -3460,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 86.36) (xy 242.57 87.63)
+			(xy 234.95 86.36) (xy 234.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3470,17 +3418,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 99.06) (xy 260.35 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc787dd6-9605-4f6b-ba55-8dfa8e718481")
-	)
-	(wire
-		(pts
-			(xy 228.6 95.25) (xy 228.6 96.52)
+			(xy 248.92 95.25) (xy 248.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3562,7 +3500,7 @@
 		)
 		(uuid "c1a5592d-754f-49f4-acad-21dbed84f305")
 	)
-	(hierarchical_label "+3.3_V"
+	(hierarchical_label "+5_V"
 		(shape input)
 		(at 260.35 72.39 0)
 		(effects
@@ -3641,7 +3579,8 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
-		(at 242.57 91.44 0)
+		(at 234.95 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3649,7 +3588,7 @@
 		(dnp no)
 		(uuid "11231168-6dfb-4108-bdfc-639c043861c4")
 		(property "Reference" "C304"
-			(at 241.3 81.28 0)
+			(at 236.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,7 +3597,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 241.3 83.82 0)
+			(at 236.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,7 +3606,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 242.57 93.98 0)
+			(at 234.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 95.25 0)
+			(at 234.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +3624,7 @@
 			)
 		)
 		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
-			(at 242.57 91.44 0)
+			(at 234.95 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3633,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 242.57 96.52 0)
+			(at 234.95 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +3642,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 242.57 97.79 0)
+			(at 234.95 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3651,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
-			(at 242.57 99.06 0)
+			(at 234.95 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3660,7 @@
 			)
 		)
 		(property "Sim.Name" "CL05B104KO5NNNC"
-			(at 242.57 100.33 0)
+			(at 234.95 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3669,7 @@
 			)
 		)
 		(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
-			(at 242.57 101.6 0)
+			(at 234.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3678,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 242.57 102.87 0)
+			(at 234.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3687,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 242.57 104.14 0)
+			(at 234.95 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3696,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 242.57 105.41 0)
+			(at 234.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3705,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 242.57 106.68 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3714,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 242.57 106.68 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3723,7 @@
 			)
 		)
 		(property "LCSC P/N" "C1525"
-			(at 242.57 106.68 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3793,7 +3732,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 242.57 106.68 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3741,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 242.57 106.68 0)
+			(at 234.95 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4394,8 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
-		(at 255.27 91.44 0)
+		(at 222.25 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4463,7 +4403,7 @@
 		(dnp no)
 		(uuid "9d438f1e-f2cd-441d-a3e4-e9f6dc077f15")
 		(property "Reference" "C306"
-			(at 254 81.28 0)
+			(at 223.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4472,7 +4412,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 254 83.82 0)
+			(at 223.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,7 +4421,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 255.27 93.98 0)
+			(at 222.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 95.25 0)
+			(at 222.25 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4439,7 @@
 			)
 		)
 		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
-			(at 255.27 91.44 0)
+			(at 222.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4448,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 255.27 96.52 0)
+			(at 222.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4457,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 255.27 97.79 0)
+			(at 222.25 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4466,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
-			(at 255.27 99.06 0)
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4475,7 @@
 			)
 		)
 		(property "Sim.Name" "CL05B104KO5NNNC"
-			(at 255.27 100.33 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4484,7 @@
 			)
 		)
 		(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
-			(at 255.27 101.6 0)
+			(at 222.25 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4493,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 255.27 102.87 0)
+			(at 222.25 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4502,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 255.27 104.14 0)
+			(at 222.25 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4511,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 255.27 105.41 0)
+			(at 222.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4520,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 255.27 106.68 0)
+			(at 222.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,7 +4529,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 255.27 106.68 0)
+			(at 222.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4538,7 @@
 			)
 		)
 		(property "LCSC P/N" "C1525"
-			(at 255.27 106.68 0)
+			(at 222.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4607,7 +4547,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 255.27 106.68 0)
+			(at 222.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4616,7 +4556,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 255.27 106.68 0)
+			(at 222.25 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +4941,8 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
-		(at 248.92 91.44 0)
+		(at 228.6 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5009,7 +4950,7 @@
 		(dnp no)
 		(uuid "ac644da6-1a8b-4f0b-b53d-3f8d54a75c38")
 		(property "Reference" "C305"
-			(at 247.65 81.28 0)
+			(at 229.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +4959,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 247.65 83.82 0)
+			(at 229.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5027,7 +4968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 248.92 93.98 0)
+			(at 228.6 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +4977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 95.25 0)
+			(at 228.6 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,7 +4986,7 @@
 			)
 		)
 		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
-			(at 248.92 91.44 0)
+			(at 228.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +4995,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 248.92 96.52 0)
+			(at 228.6 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,7 +5004,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 248.92 97.79 0)
+			(at 228.6 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5013,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
-			(at 248.92 99.06 0)
+			(at 228.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5022,7 @@
 			)
 		)
 		(property "Sim.Name" "CL05B104KO5NNNC"
-			(at 248.92 100.33 0)
+			(at 228.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5031,7 @@
 			)
 		)
 		(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
-			(at 248.92 101.6 0)
+			(at 228.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5040,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 248.92 102.87 0)
+			(at 228.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5049,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 248.92 104.14 0)
+			(at 228.6 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5058,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 248.92 105.41 0)
+			(at 228.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5067,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 248.92 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5135,7 +5076,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 248.92 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5085,7 @@
 			)
 		)
 		(property "LCSC P/N" "C1525"
-			(at 248.92 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5153,7 +5094,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 248.92 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5103,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 248.92 106.68 0)
+			(at 228.6 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5276,8 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL05B104KO5NNNC")
-		(at 236.22 91.44 0)
+		(at 241.3 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5343,7 +5285,7 @@
 		(dnp no)
 		(uuid "bc7ff152-a27c-4b71-8472-054c42f1b8f7")
 		(property "Reference" "C303"
-			(at 234.95 81.28 0)
+			(at 242.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +5294,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 234.95 83.82 0)
+			(at 242.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5361,7 +5303,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 236.22 93.98 0)
+			(at 241.3 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 95.25 0)
+			(at 241.3 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5321,7 @@
 			)
 		)
 		(property "Description" "100nF±10% X7R 16V JLCPCB Basic 0402 Capacitor"
-			(at 236.22 91.44 0)
+			(at 241.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5388,7 +5330,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 236.22 96.52 0)
+			(at 241.3 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5397,7 +5339,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 236.22 97.79 0)
+			(at 241.3 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5406,7 +5348,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL05B104KO5NNNC.lib"
-			(at 236.22 99.06 0)
+			(at 241.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5415,7 +5357,7 @@
 			)
 		)
 		(property "Sim.Name" "CL05B104KO5NNNC"
-			(at 236.22 100.33 0)
+			(at 241.3 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5366,7 @@
 			)
 		)
 		(property "Pretty Name" "100nF X7R 16V 0402 Capacitor"
-			(at 236.22 101.6 0)
+			(at 241.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5375,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 236.22 102.87 0)
+			(at 241.3 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5442,7 +5384,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 236.22 104.14 0)
+			(at 241.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5393,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 236.22 105.41 0)
+			(at 241.3 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5402,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 236.22 106.68 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +5411,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 236.22 106.68 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +5420,7 @@
 			)
 		)
 		(property "LCSC P/N" "C1525"
-			(at 236.22 106.68 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +5429,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 236.22 106.68 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5438,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 236.22 106.68 0)
+			(at 241.3 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +5962,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 219.71 91.44 0)
+		(at 256.54 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6028,7 +5971,7 @@
 		(dnp no)
 		(uuid "e7099a38-79ef-48a6-84cc-45aa8cf9d7c0")
 		(property "Reference" "C301"
-			(at 219.202 81.026 0)
+			(at 257.048 81.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +5980,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 219.202 83.566 0)
+			(at 257.048 83.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +5989,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.6752 95.25 0)
+			(at 255.5748 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +5998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 219.71 91.44 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6007,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 219.71 91.44 0)
+			(at 256.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6032,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 91.44 0)
+		(at 248.92 91.44 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6097,7 +6041,7 @@
 		(dnp no)
 		(uuid "e8cbc93c-adbc-41f1-b359-93b5ad71ac25")
 		(property "Reference" "C302"
-			(at 227.33 80.772 0)
+			(at 250.19 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6106,7 +6050,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 227.33 83.312 0)
+			(at 250.19 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6059,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.5652 95.25 0)
+			(at 247.9548 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 91.44 0)
+			(at 248.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,7 +6077,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 91.44 0)
+			(at 248.92 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

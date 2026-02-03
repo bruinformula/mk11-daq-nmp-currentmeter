@@ -8922,7 +8922,7 @@
 		)
 	)
 	(sheet
-		(at 105.41 130.81)
+		(at 38.1 72.39)
 		(size 17.78 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8937,8 +8937,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a6711e44-f5a5-42d6-815e-69199372b2f7")
-		(property "Sheetname" "ldo"
-			(at 105.41 130.0984 0)
+		(property "Sheetname" "NOTUSED_ldo"
+			(at 38.1 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8947,7 +8947,7 @@
 			)
 		)
 		(property "Sheetfile" "ldo.kicad_sch"
-			(at 105.41 144.0946 0)
+			(at 38.1 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,7 +8956,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 105.41 130.81 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
