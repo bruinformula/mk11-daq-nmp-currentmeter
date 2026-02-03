@@ -1,0 +1,198 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5030202f-0f65-4760-8272-89fbf0d19483")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 34.29 27.94)
+		(size 39.37 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7e199c61-c66e-4a96-80b7-575ed5392831")
+		(property "Sheetname" "Power Management"
+			(at 34.29 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_management.kicad_sch"
+			(at 34.29 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 34.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "hall_effect_current_sensor"
+				(path "/5030202f-0f65-4760-8272-89fbf0d19483"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 80.01)
+		(size 69.85 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "943f8b1c-dfef-427d-933b-9e9c7a99a5de")
+		(property "Sheetname" "Analog Front-End"
+			(at 33.02 79.2984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog_frontend.kicad_sch"
+			(at 33.02 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 33.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "hall_effect_current_sensor"
+				(path "/5030202f-0f65-4760-8272-89fbf0d19483"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 125.73)
+		(size 71.12 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a411b235-5a1f-470f-a128-52d07074efa7")
+		(property "Sheetname" "MCU Core"
+			(at 33.02 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_core.kicad_sch"
+			(at 33.02 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hall_effect_current_sensor"
+				(path "/5030202f-0f65-4760-8272-89fbf0d19483"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 138.43 31.75)
+		(size 72.39 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4975cd2-2303-4b0a-865b-5daccd2896cf")
+		(property "Sheetname" "Display"
+			(at 138.43 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 138.43 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "hall_effect_current_sensor"
+				(path "/5030202f-0f65-4760-8272-89fbf0d19483"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
