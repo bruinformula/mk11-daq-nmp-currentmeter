@@ -770,7 +770,7 @@
 		(uuid "977b3154-4dc7-4fec-83bc-a020612ae04e")
 	)
 	(hierarchical_label "VBATT+"
-		(shape input)
+		(shape output)
 		(at 107.95 71.12 0)
 		(effects
 			(font
@@ -979,7 +979,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/19b12faf-7b71-46cf-92b2-c5966ba55c9d/8ea9aa4f-76bf-41e8-b637-3d0ffab80390"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
 					(reference "J501")
 					(unit 1)
 				)
@@ -1165,7 +1165,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/19b12faf-7b71-46cf-92b2-c5966ba55c9d/8ea9aa4f-76bf-41e8-b637-3d0ffab80390"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
 					(reference "C502")
 					(unit 1)
 				)
@@ -1351,7 +1351,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/19b12faf-7b71-46cf-92b2-c5966ba55c9d/8ea9aa4f-76bf-41e8-b637-3d0ffab80390"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
 					(reference "C501")
 					(unit 1)
 				)
@@ -1417,7 +1417,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/19b12faf-7b71-46cf-92b2-c5966ba55c9d/8ea9aa4f-76bf-41e8-b637-3d0ffab80390"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
 					(reference "#PWR0501")
 					(unit 1)
 				)

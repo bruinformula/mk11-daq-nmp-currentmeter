@@ -615,20 +615,28 @@
       "Root"
     ],
     [
-      "19b12faf-7b71-46cf-92b2-c5966ba55c9d",
-      "mcuCore"
+      "4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9",
+      "currentSensor"
     ],
     [
-      "b987dd38-ffff-49a9-9c80-597e30a8c9f5",
+      "70482173-e24b-439b-8681-bded10c38af4",
       "microcontroller"
     ],
     [
-      "8ea9aa4f-76bf-41e8-b637-3d0ffab80390",
+      "a78e6401-d640-4226-8f46-d7369999ddfa",
+      "display"
+    ],
+    [
+      "42f9ebbf-a8dd-474a-8f3f-d64743029b95",
       "connector"
     ],
     [
-      "1f40584d-b075-42de-98b4-e364b4880d47",
-      "opamp"
+      "6c5870f0-7ae6-4871-91f3-99689e0b085e",
+      "usb_c"
+    ],
+    [
+      "a6711e44-f5a5-42d6-815e-69199372b2f7",
+      "ldo"
     ]
   ],
   "text_variables": {}
