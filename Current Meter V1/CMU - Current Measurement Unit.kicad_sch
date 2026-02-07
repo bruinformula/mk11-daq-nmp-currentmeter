@@ -156,48 +156,6 @@
 		)
 	)
 	(sheet
-		(at 147.32 69.85)
-		(size 22.86 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6c5870f0-7ae6-4871-91f3-99689e0b085e")
-		(property "Sheetname" "usb_c"
-			(at 147.32 69.1384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb_c.kicad_sch"
-			(at 147.32 85.6746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 140.97 97.79)
 		(size 30.48 27.94)
 		(exclude_from_sim no)
