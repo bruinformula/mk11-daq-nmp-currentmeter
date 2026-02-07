@@ -2,7 +2,11 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
+<<<<<<< HEAD
 	(uuid "1d6d66a5-e410-4d3e-9e2e-3f70119b9539")
+=======
+	(uuid "596a2005-9db5-47db-857d-cfd8a37351df")
+>>>>>>> katie_tao
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
@@ -606,6 +610,7 @@
 		)
 	)
 	(junction
+<<<<<<< HEAD
 		(at 128.27 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -620,161 +625,298 @@
 	(wire
 		(pts
 			(xy 128.27 102.87) (xy 134.62 102.87)
+=======
+		(at 90.17 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c231ec8-29b3-4d86-a9eb-9a368559f96c")
+	)
+	(junction
+		(at 90.17 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4d1dec-ffd8-4461-bbc5-b2388b3c818d")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 96.52 96.52)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "23e84720-b079-47cd-bed3-d4eb8a9d0fce")
 	)
 	(wire
 		(pts
 			(xy 167.64 106.68) (xy 167.64 115.57)
+=======
+		(uuid "0d0e01c6-685c-45ec-9a40-3ff29db6bfc8")
+	)
+	(wire
+		(pts
+			(xy 87.63 96.52) (xy 90.17 96.52)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "25911d88-7919-4b57-88ec-d32f3ac54c42")
 	)
 	(wire
 		(pts
 			(xy 123.19 105.41) (xy 128.27 105.41)
+=======
+		(uuid "0e812a1f-3b22-4634-812d-c92f15f3b56c")
+	)
+	(wire
+		(pts
+			(xy 104.14 96.52) (xy 110.49 96.52)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "57d485ce-7ef4-46d2-89f6-5fbb87198456")
 	)
 	(wire
 		(pts
 			(xy 128.27 105.41) (xy 128.27 115.57)
+=======
+		(uuid "1a9fc986-e077-462b-9d0f-6558335424b2")
+	)
+	(wire
+		(pts
+			(xy 90.17 104.14) (xy 144.78 104.14)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "58c67824-499f-48f5-b9d9-ac68aa638330")
 	)
 	(wire
 		(pts
 			(xy 123.19 102.87) (xy 128.27 102.87)
+=======
+		(uuid "28a6798a-c353-4728-b80c-952df39c31d0")
+	)
+	(wire
+		(pts
+			(xy 144.78 95.25) (xy 144.78 104.14)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "6a45b7ab-f295-463a-ae55-f38dd4c1e1b7")
 	)
 	(wire
 		(pts
 			(xy 128.27 92.71) (xy 128.27 102.87)
+=======
+		(uuid "37d30a59-829e-4be9-8a27-d7f154c8b665")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 144.78 90.17)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "71609f4e-f5e2-4c25-af53-b1f6c0fa2092")
 	)
 	(wire
 		(pts
 			(xy 167.64 101.6) (xy 166.37 101.6)
+=======
+		(uuid "3c553f3a-6f26-4548-9a85-385b2ce2beae")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 90.17 81.28)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "788c8196-f188-46cd-ac88-893fd67f0859")
 	)
 	(wire
 		(pts
 			(xy 167.64 93.98) (xy 167.64 99.06)
+=======
+		(uuid "46f365e3-cac5-4e20-8582-5058183969e6")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 144.78 87.63)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "839d3a9c-169e-406b-b8f8-d9b251bc6ae6")
 	)
 	(wire
 		(pts
 			(xy 142.24 106.68) (xy 147.32 106.68)
+=======
+		(uuid "6237ef86-ca36-4d3f-b52e-8033279a8247")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 97.79 91.44)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "8b828108-5d1b-44b7-a2cc-71743bd3561f")
 	)
 	(wire
 		(pts
 			(xy 151.13 104.14) (xy 167.64 104.14)
+=======
+		(uuid "80289e6a-c38a-44c6-a272-b8718e112578")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 90.17 91.44)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "aba04fcb-6115-4136-9e35-459a61933254")
 	)
 	(wire
 		(pts
 			(xy 151.13 92.71) (xy 128.27 92.71)
+=======
+		(uuid "81ff41d8-4f42-4da5-a450-616f54bdab79")
+	)
+	(wire
+		(pts
+			(xy 128.27 81.28) (xy 128.27 92.71)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "b9df4be9-5cc9-4b7f-bc69-db998611fe63")
 	)
 	(wire
 		(pts
 			(xy 166.37 97.79) (xy 158.75 97.79)
+=======
+		(uuid "b67bd537-43ee-475b-a638-3b33cfa8b30a")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 90.17 104.14)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "bf1857e4-58bb-4204-8448-7234302c8832")
 	)
 	(wire
 		(pts
 			(xy 166.37 101.6) (xy 166.37 97.79)
+=======
+		(uuid "c140b0a0-c3b3-4cbb-9763-714bdf3cbfbb")
+	)
+	(wire
+		(pts
+			(xy 105.41 91.44) (xy 110.49 91.44)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "c37edacf-9260-48e4-a623-8beda4d25b85")
 	)
 	(wire
 		(pts
 			(xy 151.13 92.71) (xy 151.13 104.14)
+=======
+		(uuid "c877bc28-e329-428b-ac09-4af86273c1e0")
+	)
+	(wire
+		(pts
+			(xy 140.97 82.55) (xy 140.97 87.63)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "c915022e-8d0b-4e6c-8d16-c4cc3daf18b6")
 	)
 	(wire
 		(pts
 			(xy 128.27 105.41) (xy 134.62 105.41)
+=======
+		(uuid "c8d6c252-d2e5-4e3a-a9a1-27eb6411af96")
+	)
+	(wire
+		(pts
+			(xy 90.17 81.28) (xy 90.17 91.44)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "d2c8e153-7de5-45ef-9f30-6ef49c41a253")
 	)
 	(wire
 		(pts
 			(xy 134.62 105.41) (xy 134.62 106.68)
+=======
+		(uuid "e51d7e79-736e-4a72-a4f8-1dd78c117c2f")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 144.78 92.71)
+>>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< HEAD
 		(uuid "e54a22f7-1489-4371-a91c-064419ecb908")
 	)
 	(wire
@@ -809,34 +951,67 @@
 	)
 	(label "SCL"
 		(at 167.64 104.14 180)
+=======
+		(uuid "f751c33f-a054-4832-b2aa-10ac3ccf0ee1")
+	)
+	(label "SCL"
+		(at 144.78 92.71 180)
+>>>>>>> katie_tao
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
+<<<<<<< HEAD
 		(uuid "e500641b-6738-43f7-aac9-635f984fd30a")
 	)
 	(hierarchical_label "PB6"
 		(shape input)
 		(at 123.19 102.87 180)
+=======
+		(uuid "383b660e-6cdd-4be4-aca1-938ddfcbfae2")
+	)
+	(label "SDA"
+		(at 144.78 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b93abcbc-fb92-4782-9029-dcf7f02f1deb")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape input)
+		(at 87.63 96.52 180)
+>>>>>>> katie_tao
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
+<<<<<<< HEAD
 		(uuid "87963c1a-2c89-418d-9fa3-4d0039a9bce3")
 	)
 	(hierarchical_label "PB7"
 		(shape input)
 		(at 123.19 105.41 180)
+=======
+		(uuid "0cd3a75d-52f1-460c-9d6f-4835c1da13a3")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape input)
+		(at 87.63 91.44 180)
+>>>>>>> katie_tao
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
+<<<<<<< HEAD
 		(uuid "ded7a763-6fce-427f-9309-7a753fcd25c8")
 	)
 	(symbol
@@ -977,15 +1152,28 @@
 	(symbol
 		(lib_id "power:+3V3")
 		(at 167.64 93.98 0)
+=======
+		(uuid "5b92d9e9-e980-4de0-b489-b9ab392f46cd")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 140.97 82.55 0)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "767284d4-6389-475e-ad19-8469215fd6a6")
 		(property "Reference" "#PWR042"
 			(at 167.64 97.79 0)
+=======
+		(uuid "783c53b3-34d2-4cd5-962e-075ad1a10800")
+		(property "Reference" "#PWR0404"
+			(at 140.97 86.36 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +1182,11 @@
 			)
 		)
 		(property "Value" "+3V3"
+<<<<<<< HEAD
 			(at 170.18 92.7099 0)
+=======
+			(at 143.51 81.2799 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1195,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 167.64 93.98 0)
+=======
+			(at 140.97 82.55 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +1208,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 167.64 93.98 0)
+=======
+			(at 140.97 82.55 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1221,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+<<<<<<< HEAD
 			(at 167.64 93.98 0)
+=======
+			(at 140.97 82.55 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,12 +1234,21 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
 			(uuid "ef0aa96e-1239-4b18-ae5b-78b61154e2ab")
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/e175ba58-6276-4e18-8de1-e86bcf970790"
 					(reference "#PWR042")
+=======
+			(uuid "48546f68-42c8-4c58-a2aa-a8242d216539")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "#PWR0404")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -1043,15 +1256,25 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+<<<<<<< HEAD
 		(at 158.75 97.79 0)
+=======
+		(at 135.89 90.17 0)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(uuid "7cafbc60-ab13-4c05-b5fd-0cdbb876e3ed")
 		(property "Reference" "#PWR041"
 			(at 158.75 104.14 0)
+=======
+		(uuid "ab3146f7-536e-466b-af29-b40814d9c685")
+		(property "Reference" "#PWR0403"
+			(at 135.89 96.52 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1283,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< HEAD
 			(at 158.75 101.854 0)
+=======
+			(at 135.89 94.234 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1295,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 158.75 97.79 0)
+=======
+			(at 135.89 90.17 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1308,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 158.75 97.79 0)
+=======
+			(at 135.89 90.17 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1321,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+<<<<<<< HEAD
 			(at 158.75 97.79 0)
+=======
+			(at 135.89 90.17 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,46 +1334,146 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
 			(uuid "a5098d06-d1e5-451a-a681-5a875cb52f4e")
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/e175ba58-6276-4e18-8de1-e86bcf970790"
 					(reference "#PWR041")
+=======
+			(uuid "9a0a9e60-4390-49e2-a608-942814e13922")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "#PWR0403")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 172.72 101.6 0)
+=======
+		(lib_id "power:+3V3")
+		(at 110.49 91.44 0)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(uuid "a4efadc2-ee48-4d91-8103-ec0034b9be1f")
 		(property "Reference" "J2"
 			(at 178.054 120.904 0)
+=======
+		(fields_autoplaced yes)
+		(uuid "ace83b7a-cd89-4818-97f0-37e74dfa9f36")
+		(property "Reference" "#PWR0401"
+			(at 110.49 95.25 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify right)
 			)
 		)
 		(property "Value" "I2C OLED Display Connector"
 			(at 178.054 118.364 0)
+=======
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 86.36 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(justify right)
 			)
 		)
 		(property "Footprint" ""
 			(at 172.72 101.6 0)
+=======
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64d0706a-7f74-497e-bac8-89e62adde493")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "#PWR0401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 100.33 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af35a167-75b9-41a1-914c-ffa0a54e7795")
+		(property "Reference" "R401"
+			(at 100.33 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k Ohms"
+			(at 100.33 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.584 95.504 90)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1482,80 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< HEAD
 			(at 172.72 101.6 0)
+=======
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68bf6b81-2bdb-4a41-b133-cea7eb8cf7ba")
+		)
+		(pin "1"
+			(uuid "5dba97c5-9cf3-40b1-9192-f03474cb5347")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 149.86 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bab567e7-0142-4819-948b-8ed13b599649")
+		(property "Reference" "J401"
+			(at 155.194 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I2C OLED Display Connector"
+			(at 155.194 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 90.17 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1564,11 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+<<<<<<< HEAD
 			(at 172.72 101.6 0)
+=======
+			(at 149.86 90.17 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,6 +1577,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
 			(uuid "314e5b57-e263-4078-805e-0534eb16219b")
 		)
 		(pin "3"
@@ -1176,12 +1593,30 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/e175ba58-6276-4e18-8de1-e86bcf970790"
 					(reference "J2")
+=======
+			(uuid "f6abfd56-9ab1-452e-aef8-d7c0d8ddf68f")
+		)
+		(pin "3"
+			(uuid "a226a2b9-01d4-47d0-bd33-aef9142e8a1c")
+		)
+		(pin "2"
+			(uuid "3c554c86-bd5d-4afa-8fcd-d6c5fc606fb0")
+		)
+		(pin "4"
+			(uuid "7dce3863-a1bf-4dc2-9beb-b0fa116934fb")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "J401")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:+3V3")
 		(at 147.32 106.68 0)
 		(unit 1)
@@ -1249,15 +1684,92 @@
 	(symbol
 		(lib_id "power:+3V3")
 		(at 147.32 102.87 0)
+=======
+		(lib_id "Device:R_US")
+		(at 101.6 91.44 90)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "e443e71f-1fd0-45de-96e2-158ce1597b8a")
 		(property "Reference" "#PWR039"
 			(at 147.32 106.68 0)
+=======
+		(uuid "dc4249d5-2555-4716-9fa0-2938e968a5fd")
+		(property "Reference" "R402"
+			(at 101.6 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k Ohms"
+			(at 101.6 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.854 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dbb86630-fc7e-47a7-ae25-d57676903c65")
+		)
+		(pin "1"
+			(uuid "700645e1-6999-4d09-ba85-00c7133494c0")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "R402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3d8cdda-311a-4ce7-8cff-41d85be08a3a")
+		(property "Reference" "#PWR0402"
+			(at 110.49 100.33 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1778,11 @@
 			)
 		)
 		(property "Value" "+3V3"
+<<<<<<< HEAD
 			(at 147.32 97.79 0)
+=======
+			(at 110.49 98.806 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1790,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 147.32 102.87 0)
+=======
+			(at 110.49 96.52 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1803,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< HEAD
 			(at 147.32 102.87 0)
+=======
+			(at 110.49 96.52 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1816,11 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+<<<<<<< HEAD
 			(at 147.32 102.87 0)
+=======
+			(at 110.49 96.52 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,12 +1829,21 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
 			(uuid "6858dea9-45e6-441a-9228-7040039d78e9")
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/e175ba58-6276-4e18-8de1-e86bcf970790"
 					(reference "#PWR039")
+=======
+			(uuid "651c00c2-d106-4094-8907-f504847eeff7")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "#PWR0402")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)

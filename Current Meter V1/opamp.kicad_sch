@@ -2547,8 +2547,13 @@
 		)
 		(uuid "58570665-eb5e-4d63-bb60-98b7decd5879")
 	)
+<<<<<<< HEAD
 	(hierarchical_label "ADC"
 		(shape input)
+=======
+	(hierarchical_label "curr_sig"
+		(shape output)
+>>>>>>> katie_tao
 		(at 228.6 95.25 0)
 		(effects
 			(font
@@ -2570,6 +2575,7 @@
 		(uuid "9a51616f-9b13-4db0-8065-dc4cde225d47")
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "Diode:BAT54A")
 		(at 73.66 27.94 0)
 		(unit 1)
@@ -2709,6 +2715,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> katie_tao
 		(lib_id "power:+5V")
 		(at 171.45 78.74 0)
 		(unit 1)
@@ -2718,7 +2726,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09141199-35c5-4138-8967-c32cb99c070a")
+<<<<<<< HEAD
 		(property "Reference" "#PWR011"
+=======
+		(property "Reference" "#PWR0212"
+>>>>>>> katie_tao
 			(at 171.45 82.55 0)
 			(effects
 				(font
@@ -2767,6 +2779,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR011")
 					(unit 1)
@@ -2908,6 +2921,10 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR0131")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0212")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -2922,7 +2939,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1610cf78-aee2-4498-aad8-801bd9e538b1")
+<<<<<<< HEAD
 		(property "Reference" "U3"
+=======
+		(property "Reference" "U201"
+>>>>>>> katie_tao
 			(at 88.646 46.99 0)
 			(effects
 				(font
@@ -2991,8 +3012,13 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "U3")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "U201")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3007,7 +3033,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ef20188-7699-4107-a19a-803659496c85")
+<<<<<<< HEAD
 		(property "Reference" "U2"
+=======
+		(property "Reference" "U202"
+>>>>>>> katie_tao
 			(at 186.436 36.83 0)
 			(effects
 				(font
@@ -3077,32 +3107,57 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "U2")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "U202")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "Device:C")
 		(at 33.02 38.1 270)
+=======
+		(lib_id "power:+3V3")
+		(at 129.54 72.39 0)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(uuid "2c90c441-64e4-4c01-b362-75054b263893")
 		(property "Reference" "C124"
 			(at 33.02 45.72 90)
+=======
+		(fields_autoplaced yes)
+		(uuid "2a8304c2-0c88-42b8-91f9-f51e61cb74a5")
+		(property "Reference" "#PWR0211"
+			(at 129.54 76.2 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 			)
 		)
 		(property "Value" "100nF"
 			(at 33.02 43.18 90)
+=======
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 129.54 67.31 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3165,11 @@
 			)
 		)
 		(property "Footprint" ""
+<<<<<<< HEAD
 			(at 29.21 39.0652 0)
+=======
+			(at 129.54 72.39 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,8 +3177,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" "~"
 			(at 33.02 38.1 0)
+=======
+		(property "Datasheet" ""
+			(at 129.54 72.39 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,8 +3191,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "Unpolarized capacitor"
 			(at 33.02 38.1 0)
+=======
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 72.39 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,6 +3205,7 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(pin "2"
 			(uuid "a6c805ae-bb97-4fc9-b445-40148dc99d23")
 		)
@@ -3146,6 +3216,82 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "C124")
+=======
+		(pin "1"
+			(uuid "6f16baf1-7b83-45d6-b4e0-63fbc45657ea")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c9f5c9e-94db-4ff6-a818-3f26419c7cea")
+		(property "Reference" "#PWR0205"
+			(at 40.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61ed1b26-b9c4-4e97-813a-0c2435f1b601")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0205")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3161,7 +3307,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30e28031-a7bb-4666-b2d4-c2cf9510cbaa")
+<<<<<<< HEAD
 		(property "Reference" "TP1"
+=======
+		(property "Reference" "TP202"
+>>>>>>> katie_tao
 			(at 194.31 40.132 0)
 			(effects
 				(font
@@ -3292,43 +3442,73 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "TP1")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "TP202")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 40.64 26.67 0)
+=======
+		(lib_id "Device:C")
+		(at 33.02 38.1 270)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(fields_autoplaced yes)
 		(uuid "3987c379-9e42-40c1-9006-fbf02a5ce789")
 		(property "Reference" "#PWR0128"
 			(at 40.64 33.02 0)
+=======
+		(uuid "3621ed9d-e9ee-48ea-936c-ea1be71c346e")
+		(property "Reference" "C201"
+			(at 33.02 45.72 90)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 40.64 31.75 0)
+=======
+			)
+		)
+		(property "Value" "100nF"
+			(at 33.02 43.18 90)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 40.64 26.67 0)
+=======
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 39.0652 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3336,8 +3516,13 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Datasheet" ""
 			(at 40.64 26.67 0)
+=======
+		(property "Datasheet" "~"
+			(at 33.02 38.1 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,8 +3530,80 @@
 				(hide yes)
 			)
 		)
+<<<<<<< HEAD
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 26.67 0)
+=======
+		(property "Description" "Unpolarized capacitor"
+			(at 33.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a6c805ae-bb97-4fc9-b445-40148dc99d23")
+		)
+		(pin "1"
+			(uuid "5032fb71-68ca-4b8a-8e3b-b50613d56946")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 72.39 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bc1694c-4558-4445-9f59-18c8e091e6c3")
+		(property "Reference" "R205"
+			(at 72.39 63.246 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24k Ohms"
+			(at 72.39 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.644 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 72.39 59.69 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,6 +3612,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
 			(uuid "61ed1b26-b9c4-4e97-813a-0c2435f1b601")
 		)
 		(instances
@@ -3427,6 +3685,17 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR0129")
+=======
+			(uuid "a5bff0e1-c731-4f7e-8da1-3afd4bc8e7b0")
+		)
+		(pin "2"
+			(uuid "502e06b0-e8f6-4509-b38f-45f524c6daef")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R205")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3442,7 +3711,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f899888-7f72-4e4d-90c7-2119be615cb5")
+<<<<<<< HEAD
 		(property "Reference" "#PWR015"
+=======
+		(property "Reference" "#PWR0214"
+>>>>>>> katie_tao
 			(at 199.39 114.3 0)
 			(effects
 				(font
@@ -3491,8 +3764,79 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR015")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 52.07 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb1396a-74fb-4394-bf1b-9a5797e2cd48")
+		(property "Reference" "#PWR0207"
+			(at 52.07 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 52.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 52.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f9b7d80-0860-4473-9c6b-6366755c2643")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0207")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3507,7 +3851,11 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49bc9cd8-4b3d-4a37-b063-f7c0c5db0c2f")
+<<<<<<< HEAD
 		(property "Reference" "R4"
+=======
+		(property "Reference" "R207"
+>>>>>>> katie_tao
 			(at 192.786 67.056 0)
 			(effects
 				(font
@@ -3560,8 +3908,13 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "R4")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R207")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3577,7 +3930,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557f90e9-78b5-4375-8d83-ef32165aa243")
+<<<<<<< HEAD
 		(property "Reference" "R5"
+=======
+		(property "Reference" "R208"
+>>>>>>> katie_tao
 			(at 208.28 83.8199 0)
 			(effects
 				(font
@@ -3630,8 +3987,147 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "R5")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 27.94 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5632dec3-9d66-4dcc-85e2-c9af855435a2")
+		(property "Reference" "#PWR0202"
+			(at 27.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 27.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ccbfec4d-1575-441b-8e4e-4575e1b73a4d")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 88.9 71.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b341bf6-6303-4465-9f5a-42e11bbf7407")
+		(property "Reference" "R206"
+			(at 88.9 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20k Ohms"
+			(at 88.9 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.154 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2428c76-b448-41f4-ae1e-1266e2c6f8a5")
+		)
+		(pin "2"
+			(uuid "e1792231-fc98-47bd-9424-8f8187274be4")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R206")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3647,7 +4143,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63f3b9bf-077f-4f5a-ad7e-0d61eeb3a0f4")
+<<<<<<< HEAD
 		(property "Reference" "D2"
+=======
+		(property "Reference" "D203"
+>>>>>>> katie_tao
 			(at 163.83 82.55 0)
 			(effects
 				(font
@@ -3702,8 +4202,79 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "D2")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "D203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63f5b2c4-6f33-4e41-9da3-1549379ec734")
+		(property "Reference" "#PWR0204"
+			(at 38.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2c422f5-72e0-4411-bda9-eb1a85fae41f")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0204")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3719,7 +4290,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2a6e2f-ee25-4ba5-9b81-b7e8a97d75c3")
+<<<<<<< HEAD
 		(property "Reference" "R3"
+=======
+		(property "Reference" "R202"
+>>>>>>> katie_tao
 			(at 39.37 49.5299 0)
 			(effects
 				(font
@@ -3772,6 +4347,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "R3")
 					(unit 1)
@@ -3908,6 +4484,10 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "R111")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R202")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3923,7 +4503,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81252bc6-0204-4c83-bd9f-58ad4cdd679e")
+<<<<<<< HEAD
 		(property "Reference" "C3"
+=======
+		(property "Reference" "C203"
+>>>>>>> katie_tao
 			(at 196.85 83.8199 0)
 			(effects
 				(font
@@ -3976,8 +4560,13 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "C3")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "C203")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -3993,7 +4582,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "843d8d70-f8bc-4723-8202-290a1928cdc2")
+<<<<<<< HEAD
 		(property "Reference" "#PWR017"
+=======
+		(property "Reference" "#PWR0208"
+>>>>>>> katie_tao
 			(at 59.69 48.26 0)
 			(effects
 				(font
@@ -4042,8 +4635,13 @@
 		)
 		(instances
 			(project ""
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR017")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0208")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -4059,7 +4657,11 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b2fcad6-011c-4568-9738-9a63dec069d0")
+<<<<<<< HEAD
 		(property "Reference" "#PWR014"
+=======
+		(property "Reference" "#PWR0213"
+>>>>>>> katie_tao
 			(at 199.39 102.87 0)
 			(effects
 				(font
@@ -4108,8 +4710,147 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR014")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0213")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e5d7d78-9fd5-45f2-99d2-0460a478c529")
+		(property "Reference" "#PWR0201"
+			(at 22.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85bb948a-a8d1-424a-aa78-f1d85ca98c2d")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 43.18 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96bc29f6-4f89-4bcf-bc47-c8cf406f0450")
+		(property "Reference" "R203"
+			(at 43.18 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k Ohms"
+			(at 43.18 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 42.926 39.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 43.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b95e6e0-4ab4-43b9-9ac4-5fd707fbd1e6")
+		)
+		(pin "2"
+			(uuid "0fa29a18-f7c6-4c9d-8602-591871b775a2")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R203")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -4124,8 +4865,13 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "960a79f5-ddfc-46f0-9b62-05be20890ab8")
 		(property "Reference" "#PWR0132"
+=======
+		(uuid "9a9478e2-3030-481e-8762-c569b4a9d124")
+		(property "Reference" "#PWR0210"
+>>>>>>> katie_tao
 			(at 104.14 78.74 0)
 			(effects
 				(font
@@ -4174,8 +4920,372 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR0132")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b8cb8de-d140-41f4-ae34-6d2cd5f75625")
+		(property "Reference" "#PWR0203"
+			(at 27.94 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89220af0-6906-4f05-9b6f-559f53e9b248")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 34.29 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b00aa610-9bed-44a3-8084-22ab1993d7e5")
+		(property "Reference" "C202"
+			(at 34.29 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 34.29 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 77.7748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "677218c6-008e-46ac-aca9-4d6c2e066b0b")
+		)
+		(pin "1"
+			(uuid "310e3962-8cfb-4285-b18b-2ae8cbeb1954")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "C202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b991d762-bec7-481f-b530-6229d585f6e5")
+		(property "Reference" "#PWR0209"
+			(at 66.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 60.706 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90c71682-1218-4945-97bb-7e9eab98b622")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MCP6002-xSN")
+		(at 62.23 87.63 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba26cc10-3434-45b4-a4a9-a304615ccb80")
+		(property "Reference" "U201"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP6002-xSN"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1MHz, Low-Power Op Amp, SOIC-8"
+			(at 62.23 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3988b200-ab3e-4cbf-b1de-1e50c69ce97c")
+		)
+		(pin "3"
+			(uuid "431cc082-a312-45dc-9b56-eb9dc70b667f")
+		)
+		(pin "2"
+			(uuid "bc629a44-242e-4007-ada8-c631825245f5")
+		)
+		(pin "1"
+			(uuid "542fca5d-80d6-4551-83ff-5eb7d157548f")
+		)
+		(pin "8"
+			(uuid "f661e0e5-1484-4ed9-96e8-05eddff3b0c2")
+		)
+		(pin "4"
+			(uuid "abd58b76-8adf-47d2-9f99-c74e9b3e0eae")
+		)
+		(pin "7"
+			(uuid "04530769-3d3e-41b6-88cc-5380a2994028")
+		)
+		(pin "6"
+			(uuid "c02641a6-085b-444b-8a85-5b1597323e43")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "U201")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:PRTR5V0U2X")
+		(at 212.09 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba81d628-6186-4a40-8d1f-149c7387f03a")
+		(property "Reference" "D204"
+			(at 198.12 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PRTR5V0U2X"
+			(at 198.12 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 212.09 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+			(at 212.09 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"
+			(at 212.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "952403c2-8e14-43b4-bd6c-e09189426968")
+		)
+		(pin "1"
+			(uuid "7a2c5aeb-43ae-4e63-b24d-08483a20f14c")
+		)
+		(pin "3"
+			(uuid "8c71a95e-bb48-4035-b675-929cea1be19e")
+		)
+		(pin "4"
+			(uuid "d29b99e4-e8fc-4211-8902-edf5e4fae442")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "D204")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -4190,8 +5300,13 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "9e5efe08-a5b8-4f6a-8df9-c6e22c80623b")
 		(property "Reference" "U105"
+=======
+		(uuid "c74f2f89-9018-4a29-8eb1-8025f262f2ae")
+		(property "Reference" "U201"
+>>>>>>> katie_tao
 			(at 29.21 86.3599 0)
 			(effects
 				(font
@@ -4262,14 +5377,20 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "U105")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "U201")
+>>>>>>> katie_tao
 					(unit 3)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< HEAD
 		(lib_id "power:GND")
 		(at 38.1 78.74 0)
 		(unit 1)
@@ -4338,31 +5459,57 @@
 	(symbol
 		(lib_id "Device:R_US")
 		(at 88.9 71.12 90)
+=======
+		(lib_id "Device:R_US")
+		(at 36.83 31.75 180)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "ad73fc8b-2f9a-422b-a28c-f28c3b19bbf3")
 		(property "Reference" "R109"
 			(at 88.9 64.77 90)
+=======
+		(uuid "d1ae1188-28f7-4820-82cb-44a70a09f586")
+		(property "Reference" "R201"
+			(at 34.29 33.0201 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 			)
 		)
 		(property "Value" "20k Ohms"
 			(at 88.9 67.31 90)
+=======
+				(justify left)
+			)
+		)
+		(property "Value" "1.2k Ohms"
+			(at 34.29 30.4801 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< HEAD
 			)
 		)
 		(property "Footprint" ""
 			(at 89.154 70.104 90)
+=======
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.814 31.496 90)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,7 +5518,11 @@
 			)
 		)
 		(property "Datasheet" "~"
+<<<<<<< HEAD
 			(at 88.9 71.12 0)
+=======
+			(at 36.83 31.75 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +5531,11 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+<<<<<<< HEAD
 			(at 88.9 71.12 0)
+=======
+			(at 36.83 31.75 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,6 +5544,7 @@
 			)
 		)
 		(pin "1"
+<<<<<<< HEAD
 			(uuid "d2428c76-b448-41f4-ae1e-1266e2c6f8a5")
 		)
 		(pin "2"
@@ -4464,6 +5620,17 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "#PWR013")
+=======
+			(uuid "86c0ece3-7868-456b-8403-cc1de4d91e6f")
+		)
+		(pin "2"
+			(uuid "72964fd1-161e-4d86-b56c-db37acc41f96")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R201")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -4471,15 +5638,25 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")
+<<<<<<< HEAD
 		(at 212.09 107.95 270)
+=======
+		(at 116.84 72.39 270)
+>>>>>>> katie_tao
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+<<<<<<< HEAD
 		(uuid "ba81d628-6186-4a40-8d1f-149c7387f03a")
 		(property "Reference" "D3"
 			(at 198.12 119.38 90)
+=======
+		(uuid "deba149e-4c50-44a1-9dd0-2456b7acc78a")
+		(property "Reference" "D202"
+			(at 102.87 83.82 90)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4487,7 +5664,11 @@
 			)
 		)
 		(property "Value" "PRTR5V0U2X"
+<<<<<<< HEAD
 			(at 198.12 116.84 90)
+=======
+			(at 102.87 81.28 90)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +5676,11 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+<<<<<<< HEAD
 			(at 212.09 109.474 0)
+=======
+			(at 116.84 73.914 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +5689,11 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf"
+<<<<<<< HEAD
 			(at 212.09 109.474 0)
+=======
+			(at 116.84 73.914 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +5702,11 @@
 			)
 		)
 		(property "Description" "Ultra low capacitance double rail-to-rail ESD protection diode, SOT-143"
+<<<<<<< HEAD
 			(at 212.09 107.95 0)
+=======
+			(at 116.84 72.39 0)
+>>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,6 +5715,7 @@
 			)
 		)
 		(pin "2"
+<<<<<<< HEAD
 			(uuid "952403c2-8e14-43b4-bd6c-e09189426968")
 		)
 		(pin "1"
@@ -4537,6 +5731,294 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "D3")
+=======
+			(uuid "bdd6624c-1992-4695-9609-9c4d6c50344a")
+		)
+		(pin "1"
+			(uuid "83059dfe-a15f-4bef-ab58-48ef2e273471")
+		)
+		(pin "3"
+			(uuid "7a5f1eca-934d-4097-b069-d9fe34bf4dba")
+		)
+		(pin "4"
+			(uuid "a09ff337-0b7c-4ee6-b7ab-7178520f9d9e")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "D202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 224.79 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1754be2-bfc1-42f6-8e2e-8d105fdd912b")
+		(property "Reference" "#PWR0215"
+			(at 224.79 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 224.79 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe959f4e-04e3-40e1-86ef-55d931046b60")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58e66fa-207e-4efc-97eb-7c0dff38661f")
+		(property "Reference" "#PWR0206"
+			(at 49.53 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f09fa2fd-36f4-4c58-afc4-41322d9321c1")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54A")
+		(at 73.66 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5e2e77d-32ee-4da8-b1c7-866e012e286b")
+		(property "Reference" "D201"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54A"
+			(at 73.66 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 75.565 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 70.612 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "schottky barrier diode"
+			(at 73.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a926ef12-ddea-4ece-b5b2-84a858d8aaed")
+		)
+		(pin "3"
+			(uuid "91808424-8890-4872-a921-04f3d3cb1f9e")
+		)
+		(pin "1"
+			(uuid "9db7a109-603c-49a2-bfab-9423dcae2a15")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "D201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f9ac57-4767-411e-aa27-a936c8ba17dc")
+		(property "Reference" "R204"
+			(at 67.31 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8.2K Ohms"
+			(at 67.31 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.564 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58386c56-d041-48d0-a79b-fa4a6204fc45")
+		)
+		(pin "2"
+			(uuid "4f52a80e-28f8-4e92-afe1-2f8e7c87bfd6")
+		)
+		(instances
+			(project ""
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "R204")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)
@@ -4551,8 +6033,13 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< HEAD
 		(uuid "c47ce133-6c5c-4529-b07e-03718d2d682f")
 		(property "Reference" "TP101"
+=======
+		(uuid "ffff8793-a33b-477d-ab4c-5bc0ff04fe04")
+		(property "Reference" "TP201"
+>>>>>>> katie_tao
 			(at 96.52 50.292 0)
 			(effects
 				(font
@@ -4683,6 +6170,7 @@
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
+<<<<<<< HEAD
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "TP101")
 					(unit 1)
@@ -5240,6 +6728,10 @@
 			(project ""
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/df1d6260-3de6-4eb3-b590-3c5d764ebf3b"
 					(reference "R6")
+=======
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/79d05d6f-828e-4a7a-8870-4baa6f5b7f32"
+					(reference "TP201")
+>>>>>>> katie_tao
 					(unit 1)
 				)
 			)

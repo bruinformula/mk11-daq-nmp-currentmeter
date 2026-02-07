@@ -615,6 +615,7 @@
       "Root"
     ],
     [
+<<<<<<< HEAD
       "b4d4c228-ef46-458b-8a8f-189f9e8b1b95",
       "Old_Version"
     ],
@@ -633,6 +634,34 @@
     [
       "df1d6260-3de6-4eb3-b590-3c5d764ebf3b",
       "OpAmp"
+=======
+      "79d05d6f-828e-4a7a-8870-4baa6f5b7f32",
+      "opamp"
+    ],
+    [
+      "70482173-e24b-439b-8681-bded10c38af4",
+      "microcontroller"
+    ],
+    [
+      "a78e6401-d640-4226-8f46-d7369999ddfa",
+      "display"
+    ],
+    [
+      "42f9ebbf-a8dd-474a-8f3f-d64743029b95",
+      "connector"
+    ],
+    [
+      "6c5870f0-7ae6-4871-91f3-99689e0b085e",
+      "usb_c"
+    ],
+    [
+      "a6711e44-f5a5-42d6-815e-69199372b2f7",
+      "NOTUSED_ldo"
+    ],
+    [
+      "4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9",
+      "OLD_currentSensor"
+>>>>>>> katie_tao
     ]
   ],
   "text_variables": {}
