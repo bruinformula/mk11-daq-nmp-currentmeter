@@ -739,6 +739,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "display: \nhttps://www.waveshare.com/1.3inch-oled-b.htm"
+		(exclude_from_sim no)
+		(at 159.004 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c266670b-5089-44d2-b869-05c9b04259e9")
+	)
 	(junction
 		(at 90.17 91.44)
 		(diameter 0)
@@ -1147,13 +1157,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 130.81 68.5799 0)
+		(property "Value" "+5V"
+			(at 128.27 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1279,7 +1288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -1528,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+5V"
 			(at 110.49 98.806 0)
 			(effects
 				(font

@@ -3680,12 +3680,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 205.74 93.98 0)
+		(property "Value" "+5V"
+			(at 208.28 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
