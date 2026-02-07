@@ -137,7 +137,7 @@
 				(justify left)
 			)
 		)
-		(pin "+5_V" output
+		(pin "+12_V" output
 			(at 184.15 113.03 180)
 			(uuid "919ffc58-fb4f-4aa8-b943-359a4f3b5eae")
 			(effects
@@ -151,6 +151,76 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 175.26 128.27)
+		(size 41.91 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "46638e6b-22d6-417c-82d4-58dcfaa6d532")
+		(property "Sheetname" "buck"
+			(at 175.26 127.5584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buck.kicad_sch"
+			(at 175.26 150.4446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 175.26 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "+5_V" output
+			(at 184.15 128.27 90)
+			(uuid "1f2dc195-68ff-49bd-a9dc-7c513eafd93f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 217.17 142.24 0)
+			(uuid "e735f57d-efcc-43fb-93a8-67bd3541be48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
+					(page "6")
 				)
 			)
 		)
