@@ -4,12 +4,6 @@
 	(generator_version "9.0")
 	(uuid "a2a38fd0-928e-4aba-88ec-c7bc808fdbf7")
 	(paper "A4")
-<<<<<<< HEAD
-	(lib_symbols)
-	(wire
-		(pts
-			(xy 134.62 87.63) (xy 160.02 87.63)
-=======
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP6002-xSN"
 			(pin_names
@@ -3672,7 +3666,6 @@
 	(wire
 		(pts
 			(xy 199.39 43.18) (xy 204.47 43.18)
->>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
@@ -3682,11 +3675,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 134.62 83.82) (xy 160.02 83.82)
-=======
 			(xy 156.21 66.04) (xy 156.21 52.07)
->>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
@@ -3696,19 +3685,12 @@
 	)
 	(wire
 		(pts
-<<<<<<< HEAD
-			(xy 134.62 100.33) (xy 160.02 100.33)
-=======
 			(xy 45.72 41.91) (xy 60.96 41.91)
->>>>>>> katie_tao
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-<<<<<<< HEAD
-		(uuid "61ac322b-610f-489a-8d3b-6d8726b7b9d4")
-=======
 		(uuid "30d23dc6-75c3-4317-857c-c2839ebd4daa")
 	)
 	(wire
@@ -8666,7 +8648,6 @@
 				)
 			)
 		)
->>>>>>> katie_tao
 	)
 	(sheet
 		(at 113.03 165.1)
@@ -8977,13 +8958,8 @@
 		)
 	)
 	(sheet
-<<<<<<< HEAD
-		(at 142.24 124.46)
-		(size 12.7 8.89)
-=======
 		(at 38.1 72.39)
 		(size 17.78 12.7)
->>>>>>> katie_tao
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8996,15 +8972,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-<<<<<<< HEAD
-		(uuid "dcd586ad-edeb-4639-a35c-2f86074469c9")
-		(property "Sheetname" "Power"
-			(at 142.24 123.7484 0)
-=======
 		(uuid "a6711e44-f5a5-42d6-815e-69199372b2f7")
 		(property "Sheetname" "NOTUSED_ldo"
 			(at 38.1 71.6784 0)
->>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,13 +8982,8 @@
 				(justify left bottom)
 			)
 		)
-<<<<<<< HEAD
-		(property "Sheetfile" "power.kicad_sch"
-			(at 142.24 133.9346 0)
-=======
 		(property "Sheetfile" "ldo.kicad_sch"
 			(at 38.1 85.6746 0)
->>>>>>> katie_tao
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9026,8 +8991,6 @@
 				(justify left top)
 			)
 		)
-<<<<<<< HEAD
-=======
 		(property "Field2" ""
 			(at 38.1 72.39 0)
 			(effects
@@ -9098,7 +9061,6 @@
 				(justify right)
 			)
 		)
->>>>>>> katie_tao
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
@@ -9107,205 +9069,6 @@
 			)
 		)
 	)
-<<<<<<< HEAD
-	(sheet
-		(at 160.02 96.52)
-		(size 12.7 15.24)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "df1d6260-3de6-4eb3-b590-3c5d764ebf3b")
-		(property "Sheetname" "OpAmp"
-			(at 160.02 95.8084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "opamp.kicad_sch"
-			(at 160.02 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ADC" input
-			(at 160.02 100.33 180)
-			(uuid "6452afc0-6f16-47f6-b236-d48af05fd3c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sensor" input
-			(at 172.72 107.95 0)
-			(uuid "e4ce5761-c24e-48c5-99c8-997377b23f79")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 160.02 81.28)
-		(size 12.7 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e175ba58-6276-4e18-8de1-e86bcf970790")
-		(property "Sheetname" "Display"
-			(at 160.02 80.5684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "display.kicad_sch"
-			(at 160.02 90.7546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PB6" input
-			(at 160.02 83.82 180)
-			(uuid "e85e3eab-2213-4775-83f5-c0876e70e9d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PB7" input
-			(at 160.02 87.63 180)
-			(uuid "4c8714e3-85a4-46e2-b4db-989a1e7639e0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 121.92 81.28)
-		(size 12.7 30.48)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "ea9e1139-1502-40b3-be6d-24d80586b96b")
-		(property "Sheetname" "MCU"
-			(at 121.92 80.5684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 121.92 112.3446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PB6" input
-			(at 134.62 83.82 0)
-			(uuid "27935f81-894c-484e-bcab-04f86e4046cd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PB7" input
-			(at 134.62 87.63 0)
-			(uuid "479de446-078d-4e8a-aee3-ac668c4964fb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ADC" input
-			(at 134.62 100.33 0)
-			(uuid "36f7f3cb-a9cc-4084-a22b-d15ea6278f1e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
-					(page "5")
-				)
-			)
-		)
-	)
-=======
->>>>>>> katie_tao
 	(sheet_instances
 		(path "/"
 			(page "1")
