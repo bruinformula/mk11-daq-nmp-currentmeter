@@ -5,31 +5,27 @@
 	(uuid "596a2005-9db5-47db-857d-cfd8a37351df")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "bfr_connectors:DAQ_Connector"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Connector"
+				(at 0 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
+				(at 1.27 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,8 +43,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
+			(property "Description" "DAQ Connector Microfit"
+				(at 1.27 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -56,8 +52,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Manufacturer P/N" "0436500401"
+				(at 1.27 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -65,8 +61,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer" "Molex"
+				(at 1.27 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -74,66 +70,58 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(property "Digikey P/N" "WM1867-ND"
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "538-43650-0401 "
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Basic?" "No"
+				(at -2.54 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
+				(at 1.27 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DAQ_Connector_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -5.08 13.97)
+					(end 5.08 -13.97)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 7.62 11.43 180)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -147,11 +135,23 @@
 							)
 						)
 					)
+					(alternate "3.3V" passive line)
+					(alternate "5V" passive line)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+					(at 7.62 3.81 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -165,29 +165,23 @@
 							)
 						)
 					)
+					(alternate "3.3V" passive line)
+					(alternate "5V" passive line)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
+					(at 7.62 -3.81 180)
+					(length 2.54)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -201,38 +195,79 @@
 							)
 						)
 					)
+					(alternate "3.3V" passive line)
+					(alternate "5V" passive line)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
+				)
+				(pin passive line
+					(at 7.62 -11.43 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "3.3V" passive line)
+					(alternate "5V" passive line)
+					(alternate "CANH" passive line)
+					(alternate "CANL" passive line)
+					(alternate "CS" passive line)
+					(alternate "GND" passive line)
+					(alternate "MISO" passive line)
+					(alternate "MOSI" passive line)
+					(alternate "SCK" passive line)
+					(alternate "SCL" passive line)
+					(alternate "SDA" passive line)
+					(alternate "VBATT+" passive line)
 				)
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "bfr_resistors:RMCF0805FT4K70"
 			(pin_numbers
 				(hide yes)
-			)
-			(pin_names
-				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "4.7k"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+			(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -240,7 +275,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4.7kΩ 0805 JLCPCB Basic Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -249,8 +293,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -258,8 +302,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
+			(property "Sim.Pins" "1=P1 2=P2"
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -267,8 +311,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
+			(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0805FT4K70.lib"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -276,10 +320,100 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_US_0_1"
+			(property "Sim.Name" "RMCF0805FT4K70"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pretty Name" "4.7kΩ 0805 Resistor"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Qty/Unit" ""
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Cost/Unit" ""
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Order From" "LCSC"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey P/N" "RMCF0805FT4K70CT-ND"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser P/N" "708-RMCF0805FT4K70"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC P/N" "C17673"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Basic Part" "Yes"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0805FT4K70_0_1"
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy -2.286 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -291,7 +425,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -303,7 +437,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+						(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -315,7 +449,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
 					)
 					(stroke
 						(width 0)
@@ -327,7 +461,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
+						(xy 2.286 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -338,9 +472,9 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "RMCF0805FT4K70_1_1"
 				(pin passive line
-					(at 0 3.81 270)
+					(at -3.81 0 0)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -358,7 +492,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
+					(at 3.81 0 180)
 					(length 1.27)
 					(name "~"
 						(effects
@@ -606,40 +740,40 @@
 		)
 	)
 	(junction
-		(at 90.17 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c231ec8-29b3-4d86-a9eb-9a368559f96c")
-	)
-	(junction
 		(at 90.17 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e4d1dec-ffd8-4461-bbc5-b2388b3c818d")
 	)
+	(junction
+		(at 90.17 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6e04e26-27a4-4b0d-b8c9-9e8e10534e05")
+	)
 	(wire
 		(pts
-			(xy 90.17 96.52) (xy 96.52 96.52)
+			(xy 115.57 97.79) (xy 132.08 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0d0e01c6-685c-45ec-9a40-3ff29db6bfc8")
+		(uuid "083e4bb1-983b-47a3-acb0-8174f6761f01")
 	)
 	(wire
 		(pts
-			(xy 87.63 96.52) (xy 90.17 96.52)
+			(xy 90.17 104.14) (xy 115.57 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e812a1f-3b22-4634-812d-c92f15f3b56c")
+		(uuid "0d8361b3-c987-415c-b224-6362b79608f9")
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 110.49 96.52)
+			(xy 105.41 96.52) (xy 110.49 96.52)
 		)
 		(stroke
 			(width 0)
@@ -649,37 +783,27 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 144.78 104.14)
+			(xy 90.17 96.52) (xy 90.17 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28a6798a-c353-4728-b80c-952df39c31d0")
+		(uuid "2d0dc69b-dbce-40f0-b2e7-5ce7ee857407")
 	)
 	(wire
 		(pts
-			(xy 144.78 95.25) (xy 144.78 104.14)
+			(xy 87.63 96.52) (xy 90.17 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37d30a59-829e-4be9-8a27-d7f154c8b665")
+		(uuid "46ede3bc-9a5a-4da4-a8b1-011bbb305921")
 	)
 	(wire
 		(pts
-			(xy 135.89 90.17) (xy 144.78 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c553f3a-6f26-4548-9a85-385b2ce2beae")
-	)
-	(wire
-		(pts
-			(xy 128.27 81.28) (xy 90.17 81.28)
+			(xy 123.19 82.55) (xy 132.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -689,13 +813,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 87.63) (xy 144.78 87.63)
+			(xy 128.27 74.93) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6237ef86-ca36-4d3f-b52e-8033279a8247")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 97.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700ad8a2-8201-49f0-bd8a-efce0340a677")
 	)
 	(wire
 		(pts
@@ -719,23 +853,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 81.28) (xy 128.27 92.71)
+			(xy 115.57 90.17) (xy 132.08 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b67bd537-43ee-475b-a638-3b33cfa8b30a")
-	)
-	(wire
-		(pts
-			(xy 90.17 96.52) (xy 90.17 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c140b0a0-c3b3-4cbb-9763-714bdf3cbfbb")
+		(uuid "a6403df6-1406-475e-a8bc-c032ab7c20e4")
 	)
 	(wire
 		(pts
@@ -749,13 +873,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 140.97 87.63)
+			(xy 128.27 69.85) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8d6c252-d2e5-4e3a-a9a1-27eb6411af96")
+	)
+	(wire
+		(pts
+			(xy 90.17 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ff47e5-3da3-4f34-8a5c-e2fab768a79c")
 	)
 	(wire
 		(pts
@@ -769,33 +903,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 144.78 92.71)
+			(xy 115.57 104.14) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f751c33f-a054-4832-b2aa-10ac3ccf0ee1")
+		(uuid "e8ebace7-94e2-470f-a477-3b7c342fbcb4")
 	)
-	(label "SCL"
-		(at 144.78 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 115.57 90.17)
 		)
-		(uuid "383b660e-6cdd-4be4-aca1-938ddfcbfae2")
-	)
-	(label "SDA"
-		(at 144.78 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
+		(stroke
+			(width 0)
+			(type default)
 		)
-		(uuid "b93abcbc-fb92-4782-9029-dcf7f02f1deb")
+		(uuid "ec076f25-457c-4fd3-a449-76c52b8cd0ce")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape input)
@@ -820,8 +944,193 @@
 		(uuid "5b92d9e9-e980-4de0-b489-b9ab392f46cd")
 	)
 	(symbol
+		(lib_id "bfr_resistors:RMCF0805FT4K70")
+		(at 101.6 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35bceb24-f746-4074-9fcb-24af42cf4d05")
+		(property "Reference" "R401"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kΩ 0805 JLCPCB Basic Resistor"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0805FT4K70.lib"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0805FT4K70"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "4.7kΩ 0805 Resistor"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805FT4K70CT-ND"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0805FT4K70"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C17673"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "871547e1-6411-46c4-822a-30ce25075ca1")
+		)
+		(pin "1"
+			(uuid "fab0587d-fbc3-4757-9000-097d928fa1b1")
+		)
+		(instances
+			(project ""
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 140.97 82.55 0)
+		(at 128.27 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -830,7 +1139,7 @@
 		(fields_autoplaced yes)
 		(uuid "783c53b3-34d2-4cd5-962e-075ad1a10800")
 		(property "Reference" "#PWR0404"
-			(at 140.97 86.36 0)
+			(at 128.27 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +1148,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.51 81.2799 0)
+			(at 130.81 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +1157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 82.55 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,7 +1166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 82.55 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,7 +1175,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 140.97 82.55 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -888,7 +1197,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 90.17 0)
+		(at 123.19 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -896,7 +1205,7 @@
 		(dnp no)
 		(uuid "ab3146f7-536e-466b-af29-b40814d9c685")
 		(property "Reference" "#PWR0403"
-			(at 135.89 96.52 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +1214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 94.234 0)
+			(at 119.888 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +1222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 90.17 0)
+			(at 123.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -922,7 +1231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 90.17 0)
+			(at 123.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,7 +1240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 90.17 0)
+			(at 123.19 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,184 +1327,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 100.33 96.52 90)
+		(lib_id "bfr_resistors:RMCF0805FT4K70")
+		(at 101.6 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "af35a167-75b9-41a1-914c-ffa0a54e7795")
-		(property "Reference" "R401"
-			(at 100.33 99.822 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k Ohms"
-			(at 100.33 102.362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.584 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 100.33 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68bf6b81-2bdb-4a41-b133-cea7eb8cf7ba")
-		)
-		(pin "1"
-			(uuid "5dba97c5-9cf3-40b1-9192-f03474cb5347")
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
-					(reference "R401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 149.86 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bab567e7-0142-4819-948b-8ed13b599649")
-		(property "Reference" "J401"
-			(at 155.194 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "I2C OLED Display Connector"
-			(at 155.194 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6abfd56-9ab1-452e-aef8-d7c0d8ddf68f")
-		)
-		(pin "3"
-			(uuid "a226a2b9-01d4-47d0-bd33-aef9142e8a1c")
-		)
-		(pin "2"
-			(uuid "3c554c86-bd5d-4afa-8fcd-d6c5fc606fb0")
-		)
-		(pin "4"
-			(uuid "7dce3863-a1bf-4dc2-9beb-b0fa116934fb")
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
-					(reference "J401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 101.6 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc4249d5-2555-4716-9fa0-2938e968a5fd")
+		(uuid "b2375e08-c140-4380-b38b-3f604a6a3be3")
 		(property "Reference" "R402"
-			(at 101.6 85.09 90)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4.7k Ohms"
-			(at 101.6 87.63 90)
+		(property "Value" "4.7k"
+			(at 101.6 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.854 90.424 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 91.44 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1203,8 +1360,134 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 101.6 91.44 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 101.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kΩ 0805 JLCPCB Basic Resistor"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0805FT4K70.lib"
+			(at 101.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "RMCF0805FT4K70"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "4.7kΩ 0805 Resistor"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "RMCF0805FT4K70CT-ND"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "708-RMCF0805FT4K70"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C17673"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 101.6 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1213,10 +1496,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "dbb86630-fc7e-47a7-ae25-d57676903c65")
+			(uuid "54522e54-b917-4923-aecc-30cad49a2b74")
 		)
 		(pin "1"
-			(uuid "700645e1-6999-4d09-ba85-00c7133494c0")
+			(uuid "d69a9f63-b799-4d4e-90be-db5ce5da272e")
 		)
 		(instances
 			(project "CMU - Current Measurement Unit"
@@ -1287,6 +1570,140 @@
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
 					(reference "#PWR0402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_connectors:DAQ_Connector")
+		(at 139.7 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa1686a0-46c9-4703-907a-51b5e22eefba")
+		(property "Reference" "J401"
+			(at 146.05 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I2C OLED Display Connector"
+			(at 146.05 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/436500401?display=pdf"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DAQ Connector Microfit"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" "0436500401"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" "WM1867-ND"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "538-43650-0401 "
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Basic?" "No"
+			(at 142.24 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate 1" "Datasheet https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2304165&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=2339204-4 0 0 Center Center 0 0 "
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4638bd0f-2094-4dfc-bcf5-2e285a161cd4")
+			(alternate "GND")
+		)
+		(pin "3"
+			(uuid "80519479-50b5-48e6-9c78-673a1451c564")
+			(alternate "3.3V")
+		)
+		(pin "2"
+			(uuid "b93515ea-bba1-4665-b7f4-2a8b424b8aac")
+			(alternate "SDA")
+		)
+		(pin "1"
+			(uuid "1de3ebbb-db17-4ee8-a841-496547079c87")
+			(alternate "SDA")
+		)
+		(instances
+			(project ""
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/a78e6401-d640-4226-8f46-d7369999ddfa"
+					(reference "J401")
 					(unit 1)
 				)
 			)
