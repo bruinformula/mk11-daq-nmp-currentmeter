@@ -2168,7 +2168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "020fdec1-59ad-4a44-8c98-4272abba133e")
-		(property "Reference" "C205"
+		(property "Reference" "C801"
 			(at 55.88 83.058 90)
 			(effects
 				(font
@@ -2220,7 +2220,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "C205")
+					(reference "C801")
 					(unit 1)
 				)
 			)
@@ -2236,7 +2236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063c344f-de4d-43a8-8856-68b568fe3b04")
-		(property "Reference" "D201"
+		(property "Reference" "D801"
 			(at 90.17 123.19 0)
 			(effects
 				(font
@@ -2292,7 +2292,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "D201")
+					(reference "D801")
 					(unit 1)
 				)
 			)
@@ -2308,7 +2308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08f2cb50-1cee-4c79-a467-15ec404884b5")
-		(property "Reference" "R205"
+		(property "Reference" "R805"
 			(at 101.6 69.85 90)
 			(effects
 				(font
@@ -2360,7 +2360,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R205")
+					(reference "R805")
 					(unit 1)
 				)
 			)
@@ -2376,7 +2376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110185da-4e79-4427-94d9-fb56402fc4da")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR0810"
 			(at 96.52 113.03 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0207")
+					(reference "#PWR0810")
 					(unit 1)
 				)
 			)
@@ -2442,7 +2442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13408771-77a4-4cc7-ba16-eb5a69056179")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR0812"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -2492,7 +2492,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0209")
+					(reference "#PWR0812")
 					(unit 1)
 				)
 			)
@@ -2507,7 +2507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1566ccd4-a10a-43f6-b4f6-ca2d520f1da2")
-		(property "Reference" "R202"
+		(property "Reference" "R802"
 			(at 92.71 93.726 90)
 			(effects
 				(font
@@ -2559,7 +2559,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R202")
+					(reference "R802")
 					(unit 1)
 				)
 			)
@@ -2575,7 +2575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17567418-fa04-4dd3-959e-fceeace3361d")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0803"
 			(at 69.85 124.46 0)
 			(effects
 				(font
@@ -2625,7 +2625,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0204")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -2641,7 +2641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e47f56-87e6-43d6-bc12-97fa8e5bfcc2")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0802"
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -2691,7 +2691,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0203")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -2707,7 +2707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268c7eb6-0453-44fb-b057-377fac5b81fe")
-		(property "Reference" "U202"
+		(property "Reference" "U802"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -2777,7 +2777,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "U202")
+					(reference "U802")
 					(unit 2)
 				)
 			)
@@ -2793,7 +2793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f0676e-1cc5-4cc4-9e64-c6b07bc30f9f")
-		(property "Reference" "R206"
+		(property "Reference" "R806"
 			(at 113.03 95.25 90)
 			(effects
 				(font
@@ -2845,7 +2845,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R206")
+					(reference "R806")
 					(unit 1)
 				)
 			)
@@ -2861,7 +2861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d2f8ca4-de31-4077-8787-906604a265ba")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR0814"
 			(at 125.73 143.51 0)
 			(effects
 				(font
@@ -2911,7 +2911,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0211")
+					(reference "#PWR0814")
 					(unit 1)
 				)
 			)
@@ -2927,7 +2927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30079ad9-a9db-4c4e-a251-fbeb2b952fc2")
-		(property "Reference" "C207"
+		(property "Reference" "C804"
 			(at 91.44 71.12 90)
 			(effects
 				(font
@@ -2979,7 +2979,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "C207")
+					(reference "C804")
 					(unit 1)
 				)
 			)
@@ -2995,7 +2995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45ee5192-5fc3-4ece-8f55-5b9bb075bf88")
-		(property "Reference" "C208"
+		(property "Reference" "C805"
 			(at 123.19 124.4599 0)
 			(effects
 				(font
@@ -3049,7 +3049,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "C208")
+					(reference "C805")
 					(unit 1)
 				)
 			)
@@ -3064,7 +3064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "47c51e9e-21ef-44b4-8c4d-0b8d76181805")
-		(property "Reference" "R207"
+		(property "Reference" "R807"
 			(at 119.126 107.696 0)
 			(effects
 				(font
@@ -3118,7 +3118,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R207")
+					(reference "R807")
 					(unit 1)
 				)
 			)
@@ -3134,7 +3134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52148342-2bba-4ebc-a961-d872da71ad44")
-		(property "Reference" "U202"
+		(property "Reference" "U802"
 			(at 73.66 153.6699 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "U202")
+					(reference "U802")
 					(unit 3)
 				)
 			)
@@ -3222,7 +3222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "591e466a-6c9b-4c0b-8744-55120c2c9e58")
-		(property "Reference" "R201"
+		(property "Reference" "R801"
 			(at 83.82 78.74 90)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R201")
+					(reference "R801")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68275d93-ec1d-4424-9db6-fd89ce8b4423")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR0809"
 			(at 93.98 158.75 0)
 			(effects
 				(font
@@ -3340,7 +3340,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0214")
+					(reference "#PWR0809")
 					(unit 1)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cadc270-e51b-4943-b948-52216f54b30e")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0804"
 			(at 72.39 148.59 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0201")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -3422,7 +3422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75892ee9-f02a-441d-9708-beb87be43905")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR0807"
 			(at 81.28 69.85 0)
 			(effects
 				(font
@@ -3472,7 +3472,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0206")
+					(reference "#PWR0807")
 					(unit 1)
 				)
 			)
@@ -3488,7 +3488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81c525be-3553-432d-9e04-05d8d8da64f3")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR0806"
 			(at 77.47 91.44 0)
 			(effects
 				(font
@@ -3538,7 +3538,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0205")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c13252-88ab-4b29-b7f3-c5e950ff9777")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR0808"
 			(at 82.55 152.4 0)
 			(effects
 				(font
@@ -3604,7 +3604,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0213")
+					(reference "#PWR0808")
 					(unit 1)
 				)
 			)
@@ -3620,7 +3620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a019275-cec7-4f96-9bbd-b145cd49393d")
-		(property "Reference" "R208"
+		(property "Reference" "R808"
 			(at 134.62 124.4599 0)
 			(effects
 				(font
@@ -3674,7 +3674,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R208")
+					(reference "R808")
 					(unit 1)
 				)
 			)
@@ -3689,7 +3689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94a2c8c2-5726-4515-bd7b-0ec97b3b5d43")
-		(property "Reference" "U202"
+		(property "Reference" "U802"
 			(at 112.776 77.47 0)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "U202")
+					(reference "U802")
 					(unit 1)
 				)
 			)
@@ -3775,7 +3775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad537261-7370-4b05-9820-085eb4fa1f7e")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR0805"
 			(at 72.39 168.91 0)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0212")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 			)
@@ -3841,7 +3841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad5cd4a1-a003-47b0-b07e-2e9922375d18")
-		(property "Reference" "C206"
+		(property "Reference" "C802"
 			(at 55.88 102.87 90)
 			(effects
 				(font
@@ -3893,7 +3893,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "C206")
+					(reference "C802")
 					(unit 1)
 				)
 			)
@@ -3908,7 +3908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b37adb15-1dec-42d5-aad0-201730f96e75")
-		(property "Reference" "R204"
+		(property "Reference" "R804"
 			(at 97.79 74.9299 0)
 			(effects
 				(font
@@ -3962,7 +3962,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R204")
+					(reference "R804")
 					(unit 1)
 				)
 			)
@@ -3978,7 +3978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae8cbdc-7cf4-4c53-b4db-9e9fa93ee374")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR0811"
 			(at 97.79 123.19 0)
 			(effects
 				(font
@@ -4028,7 +4028,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0208")
+					(reference "#PWR0811")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06f3ac5-f003-4c3d-a1e2-f5e7e469a293")
-		(property "Reference" "R203"
+		(property "Reference" "R803"
 			(at 92.71 58.4201 0)
 			(effects
 				(font
@@ -4098,7 +4098,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "R203")
+					(reference "R803")
 					(unit 1)
 				)
 			)
@@ -4114,7 +4114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9809eec-4ffd-4cd2-878d-e8953bbcd589")
-		(property "Reference" "C201"
+		(property "Reference" "C803"
 			(at 78.74 138.43 90)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "C201")
+					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -4182,7 +4182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf43c1c5-7c56-42a1-b03f-d15f25c0d7c2")
-		(property "Reference" "TP201"
+		(property "Reference" "TP801"
 			(at 120.65 80.772 0)
 			(effects
 				(font
@@ -4314,7 +4314,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "TP201")
+					(reference "TP801")
 					(unit 1)
 				)
 			)
@@ -4330,7 +4330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d44ca7af-00a0-460b-8b9c-f892e4136f80")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0801"
 			(at 45.72 97.79 0)
 			(effects
 				(font
@@ -4380,7 +4380,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0202")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -4396,7 +4396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe3f4ae-d828-4742-b5c9-ec13e4bf3b9b")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR0813"
 			(at 110.49 67.31 0)
 			(effects
 				(font
@@ -4446,7 +4446,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "#PWR0210")
+					(reference "#PWR0813")
 					(unit 1)
 				)
 			)
@@ -4462,7 +4462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7cdf33a-71d1-4148-b8f0-9ddab878ec9e")
-		(property "Reference" "U201"
+		(property "Reference" "U801"
 			(at 64.77 106.6799 0)
 			(effects
 				(font
@@ -4520,7 +4520,7 @@
 		(instances
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/4c6aac66-b3ea-43bd-89d7-21ecb20e1ad9"
-					(reference "U201")
+					(reference "U801")
 					(unit 1)
 				)
 			)

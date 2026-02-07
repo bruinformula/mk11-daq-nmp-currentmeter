@@ -856,7 +856,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 90.17) (xy 154.94 90.17)
+			(xy 152.4 91.44) (xy 154.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 88.9) (xy 152.4 90.17)
+			(xy 152.4 88.9) (xy 152.4 91.44)
 		)
 		(stroke
 			(width 0)
@@ -886,17 +886,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 85.09) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7035a472-3117-45fd-bfe5-4913680c0331")
-	)
-	(wire
-		(pts
-			(xy 152.4 85.09) (xy 154.94 85.09)
+			(xy 152.4 83.82) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 86.36) (xy 152.4 85.09)
+			(xy 152.4 86.36) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 167.64 90.17)
+			(xy 162.56 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1068,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 158.75 90.17 90)
+		(at 158.75 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1086,7 +1076,7 @@
 		(dnp no)
 		(uuid "1e74edb9-adc9-4013-bab2-6703fccda403")
 		(property "Reference" "R602"
-			(at 158.75 92.964 90)
+			(at 158.75 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1084,7 @@
 			)
 		)
 		(property "Value" "5.1k Ohms"
-			(at 158.75 95.504 90)
+			(at 158.75 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.004 89.154 90)
+			(at 159.004 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 90.17 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1110,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 158.75 90.17 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 90.17 0)
+		(at 167.64 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1302,7 +1292,7 @@
 		(dnp no)
 		(uuid "8150fe5a-7fed-4c7d-97da-ae5af0b06a58")
 		(property "Reference" "#PWR0605"
-			(at 167.64 96.52 0)
+			(at 167.64 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 94.234 0)
+			(at 167.64 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 90.17 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 90.17 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 90.17 0)
+			(at 167.64 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1349,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 158.75 85.09 90)
+		(at 158.75 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1368,7 +1358,7 @@
 		(fields_autoplaced yes)
 		(uuid "97abffa2-4bfc-4671-889b-5e3b8e9f5903")
 		(property "Reference" "R601"
-			(at 158.75 78.74 90)
+			(at 158.75 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1366,7 @@
 			)
 		)
 		(property "Value" "5.1k Ohms"
-			(at 158.75 81.28 90)
+			(at 158.75 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 159.004 84.074 90)
+			(at 159.004 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1393,7 +1383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 85.09 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1392,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 158.75 85.09 0)
+			(at 158.75 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
