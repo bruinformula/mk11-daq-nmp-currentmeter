@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 203.2 113.03) (xy 203.2 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40479d8c-c61b-47af-a5a9-d47c59a3ed37")
+	)
+	(wire
+		(pts
 			(xy 134.62 15.24) (xy 130.81 15.24)
 		)
 		(stroke
@@ -14,6 +24,26 @@
 			(type default)
 		)
 		(uuid "4752e826-258a-46d1-849b-02a977f32201")
+	)
+	(wire
+		(pts
+			(xy 180.34 128.27) (xy 180.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a10abe-93e6-475e-af8b-271a975c09bb")
+	)
+	(wire
+		(pts
+			(xy 198.12 113.03) (xy 203.2 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699aba0e-8f0c-40f1-8eb9-e5c7bfe9690e")
 	)
 	(wire
 		(pts
@@ -37,13 +67,13 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 113.03) (xy 184.15 113.03)
+			(xy 171.45 113.03) (xy 180.34 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c08ef359-feb6-405a-8df4-c0bfb6f823eb")
+		(uuid "c784125a-50c5-48fd-8a2a-408880cb76c9")
 	)
 	(wire
 		(pts
@@ -138,13 +168,13 @@
 			)
 		)
 		(pin "+12_V" output
-			(at 184.15 113.03 180)
+			(at 198.12 113.03 0)
 			(uuid "919ffc58-fb4f-4aa8-b943-359a4f3b5eae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -198,7 +228,7 @@
 			)
 		)
 		(pin "+5_V" output
-			(at 184.15 128.27 90)
+			(at 180.34 128.27 90)
 			(uuid "1f2dc195-68ff-49bd-a9dc-7c513eafd93f")
 			(effects
 				(font
@@ -208,7 +238,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 217.17 142.24 0)
+			(at 203.2 128.27 90)
 			(uuid "e735f57d-efcc-43fb-93a8-67bd3541be48")
 			(effects
 				(font
