@@ -769,7 +769,7 @@
 		)
 		(uuid "977b3154-4dc7-4fec-83bc-a020612ae04e")
 	)
-	(hierarchical_label "+5_V"
+	(hierarchical_label "+12_V"
 		(shape output)
 		(at 107.95 71.12 0)
 		(effects

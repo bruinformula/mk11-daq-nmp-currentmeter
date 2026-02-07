@@ -1157,7 +1157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5_V"
 			(at 128.27 64.77 0)
 			(effects
 				(font
@@ -1288,7 +1288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5_V"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -1537,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5_V"
 			(at 110.49 98.806 0)
 			(effects
 				(font
@@ -1699,7 +1699,7 @@
 		)
 		(pin "3"
 			(uuid "80519479-50b5-48e6-9c78-673a1451c564")
-			(alternate "3.3V")
+			(alternate "5V")
 		)
 		(pin "2"
 			(uuid "b93515ea-bba1-4665-b7f4-2a8b424b8aac")

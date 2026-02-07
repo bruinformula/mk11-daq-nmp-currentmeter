@@ -3680,13 +3680,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 208.28 97.7899 0)
+		(property "Value" "+5_V"
+			(at 205.74 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -3999,7 +3998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5_V"
 			(at 128.27 59.69 0)
 			(effects
 				(font
@@ -4065,7 +4064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5_V"
 			(at 104.14 99.06 0)
 			(effects
 				(font
@@ -5559,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5_V"
 			(at 136.906 53.34 0)
 			(effects
 				(font

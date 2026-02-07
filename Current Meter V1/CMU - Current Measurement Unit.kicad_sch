@@ -237,7 +237,7 @@
 				(justify right)
 			)
 		)
-		(pin "VIN" input
+		(pin "+12_V" input
 			(at 203.2 128.27 90)
 			(uuid "e735f57d-efcc-43fb-93a8-67bd3541be48")
 			(effects

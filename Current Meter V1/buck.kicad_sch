@@ -155,164 +155,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DIP_x01"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DIP_x01"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dip switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW?DIP?x1*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DIP_x01_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.127) (xy 2.3622 1.1684)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_0_1"
-				(rectangle
-					(start -3.81 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "SW_DIP_x01_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "bfr_capacitors:35ZLH220MEFC8X11.5"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2365,6 +2207,10 @@
 		(color 0 0 0 0)
 		(uuid "f80e4f44-89b8-465d-b940-bc5a67fbde50")
 	)
+	(no_connect
+		(at 123.19 82.55)
+		(uuid "67771ef0-c80a-49a8-9936-99b23e348e82")
+	)
 	(wire
 		(pts
 			(xy 205.74 72.39) (xy 205.74 76.2)
@@ -2394,16 +2240,6 @@
 			(type default)
 		)
 		(uuid "0e4ed84f-af08-43c3-a131-399f0e34ed34")
-	)
-	(wire
-		(pts
-			(xy 115.57 82.55) (xy 123.19 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f9a75f7-3945-4637-a93e-baaac8ae0ed7")
 	)
 	(wire
 		(pts
@@ -2547,16 +2383,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 82.55) (xy 115.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e32123b-9909-49b2-9513-caef287d1dfc")
-	)
-	(wire
-		(pts
 			(xy 135.89 87.63) (xy 135.89 92.71)
 		)
 		(stroke
@@ -2604,16 +2430,6 @@
 			(type default)
 		)
 		(uuid "b47cc167-c1fa-4c25-9c9f-f1056bf52150")
-	)
-	(wire
-		(pts
-			(xy 130.81 104.14) (xy 130.81 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c935c436-d6a2-4692-b29a-b7c8668f83d5")
 	)
 	(wire
 		(pts
@@ -2675,7 +2491,7 @@
 		)
 		(uuid "e6cc646e-8233-460a-80c3-26442860b2c2")
 	)
-	(hierarchical_label "VIN"
+	(hierarchical_label "+12_V"
 		(shape input)
 		(at 88.9 72.39 180)
 		(effects
@@ -2894,7 +2710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1aa0c49c-958f-4dee-bdbb-5f54915d504a")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0602"
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -2950,7 +2766,7 @@
 			)
 			(project "CMU - Current Measurement Unit"
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/46638e6b-22d6-417c-82d4-58dcfaa6d532"
-					(reference "#PWR0603")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -3212,80 +3028,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DIP_x01")
-		(at 123.19 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3564e8be-f92a-48c3-bfa5-abff8bffb9a0")
-		(property "Reference" "SW601"
-			(at 123.19 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DIP_x01"
-			(at 123.19 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W6.73mm_P2.54mm_LowProfile_JPin"
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "897064d8-e26e-4bdd-9ef7-5eda4ddbe648")
-		)
-		(pin "1"
-			(uuid "b8697a67-ee72-4729-a6fd-4a37a3991452")
-		)
-		(instances
-			(project "buck"
-				(path "/34dcc5f9-f36c-4889-afc0-c2fb7a9a5d2e"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/46638e6b-22d6-417c-82d4-58dcfaa6d532"
-					(reference "SW601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 179.07 93.98 0)
 		(unit 1)
@@ -3295,7 +3037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ea594a5-07f9-4785-83cf-c5538e87c0eb")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0603"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -3345,79 +3087,7 @@
 		(instances
 			(project ""
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/46638e6b-22d6-417c-82d4-58dcfaa6d532"
-					(reference "#PWR0604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5397967d-50a9-486f-bfe8-5f90fca610b8")
-		(property "Reference" "#PWR0602"
-			(at 130.81 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b90ca245-9e67-4142-99cd-649e0a934710")
-		)
-		(instances
-			(project "buck"
-				(path "/34dcc5f9-f36c-4889-afc0-c2fb7a9a5d2e"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/46638e6b-22d6-417c-82d4-58dcfaa6d532"
-					(reference "#PWR0602")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -3620,7 +3290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7d819c-6dbf-4884-8c47-e5fdbf448146")
-		(property "Reference" "#PWR0605"
+		(property "Reference" "#PWR0604"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -3670,7 +3340,7 @@
 		(instances
 			(project ""
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/46638e6b-22d6-417c-82d4-58dcfaa6d532"
-					(reference "#PWR0605")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -3686,7 +3356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce080eb-5b82-48e0-a75d-af630755cea5")
-		(property "Reference" "#PWR0606"
+		(property "Reference" "#PWR0605"
 			(at 218.44 127 0)
 			(effects
 				(font
@@ -3736,7 +3406,7 @@
 		(instances
 			(project ""
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/46638e6b-22d6-417c-82d4-58dcfaa6d532"
-					(reference "#PWR0606")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
