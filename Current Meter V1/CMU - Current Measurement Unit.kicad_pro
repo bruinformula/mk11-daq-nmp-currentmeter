@@ -188,6 +188,8 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
+        0.4,
         0.5,
         1.0
       ],
@@ -649,6 +651,10 @@
     [
       "46638e6b-22d6-417c-82d4-58dcfaa6d532",
       "buck"
+    ],
+    [
+      "3c49be73-8ae7-4e58-be2a-06e8d1140ddd",
+      "sensorConnector"
     ]
   ],
   "text_variables": {}

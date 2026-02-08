@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 86.36 80.01) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3cae5a-ebb6-44ce-ad5c-70c318db94c4")
+	)
+	(wire
+		(pts
 			(xy 203.2 113.03) (xy 203.2 128.27)
 		)
 		(stroke
@@ -114,6 +124,66 @@
 			(type default)
 		)
 		(uuid "f15cfc60-df6b-4d1f-9ac4-0a88b43c7a85")
+	)
+	(sheet
+		(at 50.8 67.31)
+		(size 35.56 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3c49be73-8ae7-4e58-be2a-06e8d1140ddd")
+		(property "Sheetname" "sensorConnector"
+			(at 50.8 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensorConnector.kicad_sch"
+			(at 50.8 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "V_OUT" output
+			(at 86.36 80.01 0)
+			(uuid "eecb2f11-7e82-4cd9-9a26-867b1b34055d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7"
+					(page "7")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 184.15 105.41)
