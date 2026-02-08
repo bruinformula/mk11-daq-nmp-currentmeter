@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCP6002-I_SN")(type "KiCad")(uri "${IMPORTED}/MCP6002_I_SN/MCP6002-I_SN.kicad_sym")(options "")(descr ""))
+)

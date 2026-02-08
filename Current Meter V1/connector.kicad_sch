@@ -568,28 +568,28 @@
 		)
 	)
 	(junction
-		(at 88.9 74.93)
+		(at 90.17 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c4195be-8305-4449-a9b4-dea2cd0f08a5")
+		(uuid "453cebe7-ff5f-4144-9607-cd42331d9526")
 	)
 	(junction
 		(at 101.6 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0e9416c2-61f0-4a00-9a78-d06a2424b0a1")
-	)
-	(junction
-		(at 88.9 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76318d83-3cc1-48b5-b3a1-151d852d53a6")
+		(uuid "5c7a1098-f210-4b92-8d2b-4afff0c78c29")
 	)
 	(junction
 		(at 101.6 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b0996464-8f3f-4402-9147-4605c4182f90")
+		(uuid "6b8d04a0-f249-45e4-b67d-882da8ffe7ee")
+	)
+	(junction
+		(at 90.17 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b183a2-33c5-40c0-9e24-932d4d33e010")
 	)
 	(bus_entry
 		(at 97.79 96.52)
@@ -611,6 +611,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 74.93) (xy 107.95 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01afcae6-ceab-4cd5-afb6-9aed3d0628ba")
+	)
+	(wire
+		(pts
 			(xy 107.95 71.12) (xy 107.95 74.93)
 		)
 		(stroke
@@ -618,16 +628,6 @@
 			(type default)
 		)
 		(uuid "0b845b51-a26f-4e2e-bc17-83194d7ddf33")
-	)
-	(wire
-		(pts
-			(xy 83.82 82.55) (xy 88.9 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef6e272-4d33-4cc0-9543-78bf3e132c00")
 	)
 	(wire
 		(pts
@@ -661,17 +661,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 74.93) (xy 88.9 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b1bbcaf-ad38-4fac-baff-2333e5389bb1")
-	)
-	(wire
-		(pts
-			(xy 88.9 82.55) (xy 101.6 82.55)
+			(xy 83.82 82.55) (xy 90.17 82.55)
 		)
 		(stroke
 			(width 0)
@@ -681,7 +671,37 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 107.95 74.93)
+			(xy 101.6 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e0c4616-b5a7-4257-a969-2632f1bbf34d")
+	)
+	(wire
+		(pts
+			(xy 90.17 74.93) (xy 101.6 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69fdd5a7-5748-4352-b4ba-bbd9b59430b2")
+	)
+	(wire
+		(pts
+			(xy 90.17 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710a8969-34d6-4a44-9a51-36e09dac76b6")
+	)
+	(wire
+		(pts
+			(xy 83.82 74.93) (xy 90.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -718,26 +738,6 @@
 			(type default)
 		)
 		(uuid "e8784420-c1e9-4a75-8183-466f86c91cb4")
-	)
-	(wire
-		(pts
-			(xy 101.6 82.55) (xy 107.95 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55ef3b9-10f8-4255-8ba9-742ff38e8477")
-	)
-	(wire
-		(pts
-			(xy 88.9 74.93) (xy 101.6 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc63f9c1-3cf0-4955-8169-fbbe3dc62929")
 	)
 	(label "CAN-"
 		(at 83.82 97.79 0)
@@ -987,16 +987,82 @@
 		)
 	)
 	(symbol
-		(lib_id "bfr_capacitors:CL21A226MAQNNNE")
-		(at 101.6 78.74 0)
+		(lib_id "power:GND")
+		(at 107.95 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c241720-f5fc-419b-9806-c51eba86ed8f")
-		(property "Reference" "C502"
-			(at 99.822 69.088 0)
+		(fields_autoplaced yes)
+		(uuid "5ff190a5-656e-4bdc-9d63-71fd62c3e0af")
+		(property "Reference" "#PWR0501"
+			(at 107.95 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "471b485d-9670-4992-b25f-446bec477422")
+		)
+		(instances
+			(project "CMU - Current Measurement Unit"
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL21A226MAQNNNE")
+		(at 90.17 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b04855d2-3d4d-4bb3-a071-0a53072796ce")
+		(property "Reference" "C501"
+			(at 87.884 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1071,193 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 99.822 71.628 0)
+			(at 87.884 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "22uF±20% X5R 25V JLCPCB Basic 0805 Capacitor"
+			(at 90.17 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=P1 2=P2"
+			(at 90.17 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL21A226MAQNNNE.lib"
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "CL21A226MAQNNNE"
+			(at 90.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pretty Name" "22uF X5R 25V 0805 Capacitor"
+			(at 90.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Qty/Unit" ""
+			(at 90.17 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Cost/Unit" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order From" "LCSC"
+			(at 90.17 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" "187-CL21A226MAYNNNE"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC P/N" "C45783"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Basic Part" "Yes"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a7d4511-e1ac-4756-a809-7b0cd9825317")
+		)
+		(pin "1"
+			(uuid "8c02ac09-14d9-4edd-aeeb-1f73551f9ab3")
+		)
+		(instances
+			(project ""
+				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
+					(reference "C501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bfr_capacitors:CL21A226MAQNNNE")
+		(at 101.6 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6194301-8af1-446f-b3be-95b24b77ab92")
+		(property "Reference" "C502"
+			(at 100.076 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 100.076 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,267 +1410,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "69df3d1e-12e0-48e7-98d7-6433ea1bdef5")
+			(uuid "a619aa56-9b02-4676-ba2b-84a3951f12b5")
 		)
 		(pin "2"
-			(uuid "548ed4fc-003b-4b89-a44d-b4a54831691b")
+			(uuid "d20cdc40-24c7-4c23-947d-97333fa37481")
 		)
 		(instances
-			(project "CMU - Current Measurement Unit"
+			(project ""
 				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
 					(reference "C502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_capacitors:CL21A226MAQNNNE")
-		(at 88.9 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3dbdb67b-defb-4719-9a42-2e5efdbd7da2")
-		(property "Reference" "C501"
-			(at 87.122 69.0879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 87.884 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 88.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "22uF±20% X5R 25V JLCPCB Basic 0805 Capacitor"
-			(at 88.9 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 88.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=P1 2=P2"
-			(at 88.9 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL21A226MAQNNNE.lib"
-			(at 88.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "CL21A226MAQNNNE"
-			(at 88.9 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Pretty Name" "22uF X5R 25V 0805 Capacitor"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Qty/Unit" ""
-			(at 88.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Cost/Unit" ""
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "187-CL21A226MAYNNNE"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC P/N" "C45783"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d44c988-c7db-4b76-bc40-b2ea2d9918dd")
-		)
-		(pin "2"
-			(uuid "0dbeee5d-b01d-4798-83e8-b5504257cd85")
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
-					(reference "C501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 107.95 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ff190a5-656e-4bdc-9d63-71fd62c3e0af")
-		(property "Reference" "#PWR0501"
-			(at 107.95 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 107.95 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "471b485d-9670-4992-b25f-446bec477422")
-		)
-		(instances
-			(project "CMU - Current Measurement Unit"
-				(path "/a2a38fd0-928e-4aba-88ec-c7bc808fdbf7/42f9ebbf-a8dd-474a-8f3f-d64743029b95"
-					(reference "#PWR0501")
 					(unit 1)
 				)
 			)

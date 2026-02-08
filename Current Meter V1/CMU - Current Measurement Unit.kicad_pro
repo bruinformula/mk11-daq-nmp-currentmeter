@@ -440,6 +440,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -609,6 +610,31 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "a2a38fd0-928e-4aba-88ec-c7bc808fdbf7",
+      "Root"
+    ],
+    [
+      "79d05d6f-828e-4a7a-8870-4baa6f5b7f32",
+      "opamp"
+    ],
+    [
+      "70482173-e24b-439b-8681-bded10c38af4",
+      "microcontroller"
+    ],
+    [
+      "a78e6401-d640-4226-8f46-d7369999ddfa",
+      "display"
+    ],
+    [
+      "42f9ebbf-a8dd-474a-8f3f-d64743029b95",
+      "connector"
+    ],
+    [
+      "6c5870f0-7ae6-4871-91f3-99689e0b085e",
+      "usb_c"
+    ]
+  ],
   "text_variables": {}
 }
