@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ce6b82e9-8ab9-4132-b1e2-ba0467b42a7f")
+	(uuid "b617e478-1264-45d7-9886-7a8428461159")
 	(paper "A4")
 	(lib_symbols
 		(symbol "bfr_connectors:DAQ_Connector"
@@ -476,31 +476,15 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 95.25 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85eff1b1-06dd-4dcb-9b69-7f4234043c6d")
-	)
 	(wire
 		(pts
-			(xy 95.25 97.79) (xy 95.25 105.41)
+			(xy 88.9 105.41) (xy 100.33 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35378106-a17c-4cfc-97db-5b901431ecb6")
-	)
-	(wire
-		(pts
-			(xy 91.44 97.79) (xy 95.25 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2c7d23-5244-471b-8217-b01caeeb03da")
+		(uuid "2b70e188-0946-479c-aa64-9b1a5883a4b3")
 	)
 	(wire
 		(pts
@@ -514,17 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 105.41) (xy 100.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5ddbe1-6b50-46ec-90bf-5f45071285b8")
-	)
-	(wire
-		(pts
-			(xy 95.25 97.79) (xy 100.33 97.79)
+			(xy 91.44 97.79) (xy 100.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -551,6 +525,16 @@
 			(type default)
 		)
 		(uuid "f6ed86df-172b-41c4-890f-842fcf5c9615")
+	)
+	(label "V_REF"
+		(at 88.9 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f695f5b-1926-497e-a721-bed4397280b4")
 	)
 	(hierarchical_label "V_OUT"
 		(shape input)
@@ -682,6 +666,7 @@
 		)
 		(pin "2"
 			(uuid "cdc076fc-8591-488f-9871-34c5e41073f8")
+			(alternate "V_REF")
 		)
 		(pin "1"
 			(uuid "946ecc9e-365c-4712-991f-447bb8134a8a")
